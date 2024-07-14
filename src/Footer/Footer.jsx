@@ -46,3 +46,4 @@ margin-left:50rem;
 `;
 
 export default Footer;
+
