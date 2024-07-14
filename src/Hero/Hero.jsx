@@ -15,6 +15,7 @@ const Hero = () => {
                             <p>I'm Priya Karn. A Front End Developer,youtuber,and freelancer.
                                 A Front End Developer,youtuber,and freelancer.
                             </p>
+                            <SocialMedia/>
                             <Button
                                 name="Download CV"
                             />

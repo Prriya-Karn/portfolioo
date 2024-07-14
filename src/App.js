@@ -19,7 +19,10 @@ const App = ()=>{
       headerColor:"#F0F8FF",
       menuColor:"#002D62",
       logoColor: "#002D62",
-      buttonBackColor : "#002D62"
+      buttonBackColor : "#002D62",
+      eduboxColor:"#ccd5df",
+      proboxColor:"rgba(0, 45, 98, 0.8)",
+      prolinkColor:"#87CEEB",
     },
 
     fontSize:{
@@ -31,6 +34,9 @@ const App = ()=>{
       skillsFont : "2rem",
       skillP : "1.5rem",
       eduHead: "4rem",
+      eduh1 : "2.5rem",
+      edup : "1.4rem",
+      proboxh1:"2rem",
     },
 
     boxShadow:{
