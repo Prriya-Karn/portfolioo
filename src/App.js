@@ -2,13 +2,13 @@ import React, { Fragment } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./Home/Home";
 import About from "./About/About";
-import Service from "./Service/Service";
 import Contact from "./Contact/Contact";
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 import { ThemeProvider } from "styled-components";
 import { GlobalStyle } from "./GlobalStyle";
 import AllPage from "./Allpage/AllPage";
+import Resume from "./Resume/Resume";
 const App = ()=>{
 
   const theme = {
@@ -19,10 +19,11 @@ const App = ()=>{
       headerColor:"#F0F8FF",
       menuColor:"#002D62",
       logoColor: "#002D62",
-      buttonBackColor : "#002D62",
+      buttonBackColor : "rgba(0, 45, 80, 0.8)",
       eduboxColor:"#ccd5df",
       proboxColor:"rgba(0, 45, 98, 0.8)",
       prolinkColor:"#87CEEB",
+      hoverBoxColor:"#335781",
     },
 
     fontSize:{
@@ -61,7 +62,7 @@ const App = ()=>{
     <Route exact path="/" element = {<Home/>}/>
     <Route exact path="/about" element = {<About/>}/>
     <Route exact path = "/contact" element = {<Contact/>}/>
-    <Route exact path = "/service" element={<Service/>}/>
+    <Route exact path = "/resume" element={<Resume/>}/>
     </Routes>
     <Footer/>
     </BrowserRouter>

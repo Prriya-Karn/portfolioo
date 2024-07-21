@@ -12,15 +12,32 @@ const Contact = ()=>{
       className = "edu-border"
       />
 
-<div>
-<iframe className="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448193.9510303648!2d76.76356891374637!3d28.64428735347703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1720986009880!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
 
-
+      <div className="blob-con-1">
+      <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg"  id="blobSvg">
+      <defs>
+        <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" style={{stopColor: "rgb(0, 45, 98)"}}></stop>
+          <stop offset="100%" style={{stopColor: "rgb(196, 224, 229)"}}></stop>
+        </linearGradient>
+      </defs>
+      <path id="blob" d="
+      M410,325Q369,400,289.5,413.5Q210,427,154.5,375Q99,323,94,248Q89,173,147,
+      113Q205,53,302,58Q399,63,425,156.5Q451,250,410,325Z
+      "
+       fill="url(#gradient)"></path>
+      </svg>
+      </div>
+      
+      
 <form className="contact-form">
+
 <div className="input-contact">
+<div className="cont-inp grid">
 <input type="text" placeholder="Your Name"/>
 <input type="email" placeholder="Your Email"/>
+</div>
+
 <textarea className="textarea" placeholder="Your Message"/>
 </div>
 <Button
@@ -39,7 +56,27 @@ name = "Submit"
 };
 
 const ContactWrapper = styled.div`
+.blob-con-1{
+position:relative;
+max-width:20rem;
+left:40rem;
+top:-5rem;
+z-index:-1;
+}
+.contact-form{
+margin-left:50rem;
+margin-top:-18rem;
+max-width:50rem;
+height:auto;
+}
+.contact-container{
+min-height:48rem;
 
+}
+.cont-inp{
+
+gap:2rem;
+}
 .edu-border{
 margin-left:65rem;
 }
@@ -49,14 +86,11 @@ width:180rem;
 height:20rem;
 }
 
-.contact-form{
-margin-left:50rem;
-margin-top:2rem;
-max-width:50rem;
-height:auto;
-}
+
 
 .contact-form input{
+ background: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(10px);
 border:1px solid ${({theme})=>theme.colors.buttonBackColor};
 color:${({theme})=>theme.colors.buttonBackColor};
 font-size:1.6rem;
@@ -75,7 +109,7 @@ margin-bottom:2rem;
 border:1px solid ${({theme})=>theme.colors.buttonBackColor};
 color:${({theme})=>theme.colors.buttonBackColor};
 font-size:1.6rem;
-height:10rem;
+min-height:18rem;
 padding:1rem 0 0 1rem;
 outline:none;
 }

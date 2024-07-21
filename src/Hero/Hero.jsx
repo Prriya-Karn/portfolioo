@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import styled from "styled-components";
 import Button from "../Button/Button";
 import SocialMedia from "./SocialMedia";
+import Blob from "../Blob/Blob";
 const Hero = () => {
     return (
         <Fragment>
@@ -23,9 +24,9 @@ const Hero = () => {
 
 
                         <div className="hero-image">
-                            <img src="/Images/samosa.jpg" />
+                     <Blob/>
+                            <img src="/Images/portfoliopro.png" />
                         </div>
-
                     </div>
                 </section>
             </HeroWrap>
@@ -40,12 +41,16 @@ padding:9rem 0;
 margin-bottom:10rem;
 }
 .hero-image{
+position:relative;
+min-height:10rem;
 padding-left:10rem;
 }
 
 .hero-image img{
-height:20rem;
-
+position:absolute;
+top:-2rem;
+margin-left:5rem;
+max-width:90rem;
 }
 
 .hero-data{
@@ -74,6 +79,8 @@ color : ${({ theme }) => theme.colors.grey};
 font-size:1.5rem;
 margin-bottom:1.5rem;
 }
+
+
 
 `;
 export default Hero;

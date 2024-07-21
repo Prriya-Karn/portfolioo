@@ -30,6 +30,30 @@ const Education=()=>{
         <p className="cg">CGPA: 8</p>
         </div>
         </div>
+        <div className="blob-edu">
+        <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg"  id="blobSvg">
+        <defs>
+          <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style={{stopColor: "rgb(0, 45, 98)"}}></stop>
+            <stop offset="100%" style={{stopColor: "rgb(196, 224, 229)"}}></stop>
+          </linearGradient>
+        </defs>
+        <path id="blob" d="M413,323.5Q335,397,250.5,396Q166,395,117.5,322.5Q69,250,110,164.5Q151,79,262.5,57Q374,35,432.5,142.5Q491,250,413,323.5Z"
+         fill="url(#gradient)"></path>
+      </svg>
+      </div>
+
+      <div className="blob-edu-1">
+      <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" id="blobSvg">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style={{stopColor: "rgb(0, 45, 98)"}}></stop>
+      <stop offset="100%" style={{stopColor: "rgb(196, 224, 229)"}}></stop>
+    </linearGradient>
+  </defs>
+  <path id="blob" d="M284.5,351Q133,452,161,298Q189,144,312.5,197Q436,250,284.5,351Z" fill="url(#gradient)"></path>
+</svg>
+</div>
         </div>
         </div>
         </EducationWrapper>
@@ -40,6 +64,7 @@ const Education=()=>{
 
 
 const EducationWrapper = styled.div`
+
 .edu-container{
 margin-top:-30rem;  
 }
@@ -58,8 +83,26 @@ margin-bottom:2rem;
 display:grid;
 gap:1rem;
 height:15rem;
+position:relative;
 }
 
+.blob-edu{
+position:absolute;
+top:-13rem;
+left:5rem;
+z-index:-1;
+width:50rem;
+}
+    
+.blob-edu-1{
+position:absolute;
+top:-10rem;
+left:100rem;
+z-index:-1;
+width:50rem;
+
+
+}
 .diploma{
 background-color:${({theme})=>theme.colors.eduboxColor};
 max-width:50rem;

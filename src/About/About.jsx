@@ -6,12 +6,12 @@ const About = () => {
     return (
         <Fragment>
         <AboutWrap>
-            <section>
+            <section className="about-section">
                 <div className="hero-container grid">
 
                 <div className="about-image">
                 <div className="about-image-left">
-                <img src="/Images/samosa.jpg"/>
+                <img src="/Images/portfoliopro1.png"/>
                 </div>
                 <div className="about-image-right">
                 <p><span>Name:</span> Priya Karn</p>
@@ -73,7 +73,7 @@ name = "Github"
 const AboutWrap = styled.section`
 section{
 padding:9rem 0;
-margin-bottom : 40rem;  
+margin-bottom : 40rem;
 }
 
 
@@ -86,20 +86,21 @@ display:grid;
   grid-template-columns : repeat(2,1fr);
 }
   .about-image-left{
-  max-width:20rem;
+  max-width:15rem;
   height:20rem;
  margin-left:17.5rem;
   }
    .about-image-left img{
-
-   max-width: 20rem;
   height: 15rem;
   border-radius: 50%;
+  border:1px solid ${({theme})=>theme.colors.buttonBackColor};
+  background-color:${({theme})=>theme.colors.lightGrey};
+  margin-top:-1rem;
    }
 
 
 .about-image-right{
-margin-left:-30rem;
+margin-left:-33rem;
 width:40rem;
 margin-top:1rem;
 height:10rem;
@@ -193,13 +194,3 @@ margin-bottom:1.5rem;
 }
 `;
 export default About;
-
-
-
-// .hero-data{
-//     background-color:pink;
-//     max-width:auto;
-//     display:flex;
-//     flex-direction:column;
-//     justify-content:center;
-//     }

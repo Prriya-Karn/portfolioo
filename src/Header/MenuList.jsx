@@ -10,8 +10,8 @@ const menuName = [
         path : "/about"
     },
     {
-        menu : "Service",
-        path : "/service"
+        menu : "Resume",
+        path : "/resume"
     },
     {
         menu : "Contact",

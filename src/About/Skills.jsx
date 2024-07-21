@@ -115,7 +115,7 @@ background-color: ${({theme})=>theme.colors.buttonBackColor};
 border-radius:1rem;
 max-width:40rem;
 color:white;
-background-color: ${({theme})=>theme.colors.buttonBackColor};
+background: ${({theme})=>theme.colors.buttonBackColor};
 }
 
 .dsa-bar{

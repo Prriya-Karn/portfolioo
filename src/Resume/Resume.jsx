@@ -1,11 +1,11 @@
 import React, { Fragment } from "react";
-const Service = ()=>{
+const Resume = ()=>{
     return(
         <Fragment>
-        <h1>this is service page</h1>
+        <h1>Resume</h1>
         </Fragment>
     )
 
 }
 
-export default Service;
+export default Resume;

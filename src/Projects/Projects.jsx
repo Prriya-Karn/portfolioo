@@ -14,37 +14,178 @@ const Projects = () => {
 
                     <div className="card-project">
                         <div className="card-row row-1">
+                        
+                        <div className="blob-pro">
+                        <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg"  id="blobSvg">
+                        <defs>
+                          <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" style={{stopColor: "rgb(0, 45, 98)"}}></stop>
+                            <stop offset="100%" style={{stopColor: "rgb(196, 224, 229)"}}></stop>
+                          </linearGradient>
+                        </defs>
+                        <path id="blob" d="
+                        M410,325Q369,400,289.5,413.5Q210,427,154.5,375Q99,323,94,248Q89,173,147,
+                        113Q205,53,302,58Q399,63,425,156.5Q451,250,410,325Z
+                        "
+                         fill="url(#gradient)"></path>
+                      </svg>
+                      </div>
                             <div className="col-1 column-pro">
-                            <img src="/Images/music.jpg"/>
+                            
 
+
+
+
+<div className="pro-layer">
+<h1>Youtube Clone</h1>
+<div className="prolink">
+<NavLink to="/about">
+<img src="/Images/link.png"/>
+</NavLink>
+</div>
+
+</div>
+
+                            </div>
+
+                            
+                        <div className="blob-pro-1">
+                        <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg"  id="blobSvg">
+                        <defs>
+                          <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" style={{stopColor: "rgb(0, 45, 98)"}}></stop>
+                            <stop offset="100%" style={{stopColor: "rgb(196, 224, 229)"}}></stop>
+                          </linearGradient>
+                        </defs>
+                        <path id="blob" d="
+                        M410,325Q369,400,289.5,413.5Q210,427,154.5,375Q99,323,94,248Q89,173,147,
+                        113Q205,53,302,58Q399,63,425,156.5Q451,250,410,325Z
+                        "
+                         fill="url(#gradient)"></path>
+                      </svg>
+                      </div>
+                            <div className="col-2 column-pro"><h1>Project 1</h1>
                             <div className="pro-layer">
-                            <h1>Youtube Clone</h1>
-                            <div className="prolink">
-                            <NavLink to="/about">
-                            <img src="/Images/link.png"/>
-                            </NavLink>
-                            </div>
-                            
-                            </div>
+<h1>Youtube Clone</h1>
+<div className="prolink">
+<NavLink to="/about">
+<img src="/Images/link.png"/>
+</NavLink>
+</div>
 
+</div>
                             </div>
-                            <div className="col-2 column-pro">
                             
+                        <div className="blob-pro-2">
+                        <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg"  id="blobSvg">
+                        <defs>
+                          <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" style={{stopColor: "rgb(0, 45, 98)"}}></stop>
+                            <stop offset="100%" style={{stopColor: "rgb(196, 224, 229)"}}></stop>
+                          </linearGradient>
+                        </defs>
+                        <path id="blob" d="
+                        M410,325Q369,400,289.5,413.5Q210,427,154.5,375Q99,323,94,248Q89,173,147,
+                        113Q205,53,302,58Q399,63,425,156.5Q451,250,410,325Z
+                        "
+                         fill="url(#gradient)"></path>
+                      </svg>
+                      </div>
+                            <div className="col-3 column-pro">
+                            <div className="pro-layer">
+<h1>Youtube Clone</h1>
+<div className="prolink">
+<NavLink to="/about">
+<img src="/Images/link.png"/>
+</NavLink>
+</div>
+
+</div>
                             </div>
-                            <div className="col-3 column-pro"></div>
                         </div>
 
 
                         <div className="card-row row-2">
-                            <div className="col-4 column-pro"></div>
-                            <div className="col-5 column-pro"></div>
-                            <div className="col-6 column-pro"></div>
+                        
+                        <div className="blob-pro-3">
+                        <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg"  id="blobSvg">
+                        <defs>
+                          <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" style={{stopColor: "rgb(0, 45, 98)"}}></stop>
+                            <stop offset="100%" style={{stopColor: "rgb(196, 224, 229)"}}></stop>
+                          </linearGradient>
+                        </defs>
+                        <path id="blob" d="
+                        M410,325Q369,400,289.5,413.5Q210,427,154.5,375Q99,323,94,248Q89,173,147,
+                        113Q205,53,302,58Q399,63,425,156.5Q451,250,410,325Z
+                        "
+                         fill="url(#gradient)"></path>
+                      </svg>
+                      </div>
+                            <div className="col-4 column-pro">
+                            <div className="pro-layer">
+<h1>Youtube Clone</h1>
+<div className="prolink">
+<NavLink to="/about">
+<img src="/Images/link.png"/>
+</NavLink>
+</div>
+
+</div>
+                            
+                            </div>
+
+
+                            <div className="blob-pro-4">
+                        <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg"  id="blobSvg">
+                        <defs>
+                          <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" style={{stopColor: "rgb(0, 45, 98)"}}></stop>
+                            <stop offset="100%" style={{stopColor: "rgb(196, 224, 229)"}}></stop>
+                          </linearGradient>
+                        </defs>
+                        <path id="blob" d="
+                        M410,325Q369,400,289.5,413.5Q210,427,154.5,375Q99,323,94,248Q89,173,147,
+                        113Q205,53,302,58Q399,63,425,156.5Q451,250,410,325Z
+                        "
+                         fill="url(#gradient)"></path>
+                      </svg>
+                      </div>
+
+
+
+                            <div className="col-5 column-pro">
+                            <div className="pro-layer">
+<h1>Youtube Clone</h1>
+<div className="prolink">
+<NavLink to="/about">
+<img src="/Images/link.png"/>
+</NavLink>
+</div>
+
+</div>
+                            </div>
+                            <div className="col-6 column-pro">
+                            <div className="pro-layer">
+<h1>Youtube Clone</h1>
+<div className="prolink">
+<NavLink to="/about">
+<img src="/Images/link.png"/>
+</NavLink>
+</div>
+
+</div>
+                            </div>
                         </div>
+                        
+                
                     </div>
 
 
 
                 </div>
+                
+        
             </ProjectWrapper>
         </Fragment>
     )
@@ -70,8 +211,48 @@ display:grid;
 grid-template-columns : repeat(3,1fr);
 gap:1rem;
 margin-top:1rem;
+position:relative;
+
 }
 
+.blob-pro{
+top:-2rem;
+left:-8rem;
+position:absolute;
+width:25rem;
+}
+.blob-pro-1{
+top:15rem;
+left:20rem;
+z-index:-1;
+position:absolute;
+width:20rem;
+}
+
+.blob-pro-2{
+top:2rem;
+left:50rem;
+z-index:-1;
+position:absolute;
+width:20rem;
+}
+
+.blob-pro-3{
+top:8rem;
+left:65rem;
+z-index:-1;
+position:absolute;
+width:15rem;
+}
+
+
+.blob-pro-4{
+    top:8rem;
+    left:1rem;
+    z-index:-1;
+    position:absolute;
+    width:15rem;
+    }
 .row-1{
 margin-left:35rem;
 max-width:80rem;
@@ -83,42 +264,40 @@ margin-left:35rem;
 max-width:80rem;
 height:20rem;
 }
-
-.col-1{
-background-color:pink;
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6 {
+    background: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(10px);
+    border-radius: 2rem;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.18);
 }
-.col-2{
-background-color:purple;
-}
-.col-3{
-background-color:plum;
-}
-.col-4{
-background-color:orange;
-}
-.col-5{
-background-color:black;
-}
-.col-6{
-background-color:aqua;
-}
-
 .column-pro{
  position: relative;
     border-radius: 2rem;
     overflow: hidden;
 cursor : pointer;
 }
-.column-pro img{
-width:100%;
+.column-pro h1{
+color:${({theme})=>theme.colors.menuColor};
+display:flex;
+justify-content:center;
+place-items:center;
+align-items:center;
 height:100%;
-border-radius:2rem;
+font-size:${({theme})=>theme.fontSize.menuSize};
+z-index:-1;
 }
 
-.pro-layer {
+
+}
+.pro-layer{
+
     height: 100%;
     width: 100%;
-    background-color: ${({theme})=>theme.colors.proboxColor};
+    background-color: ${({theme})=>theme.colors.hoverBoxColor};
     position: absolute;
     bottom: 0;
   
@@ -163,3 +342,5 @@ margin-bottom:2rem;
 `;
 
 export default Projects;
+
+
