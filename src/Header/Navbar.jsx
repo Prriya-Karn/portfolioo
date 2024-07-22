@@ -41,7 +41,7 @@ const Navbar = () => {
 const MenuWrap = styled.nav`
 .menu-link{
 padding-right:20rem;
-background-color:orange; 
+
 display:flex;
 gap:20rem;
 max-width:100%;
