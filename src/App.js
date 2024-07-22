@@ -29,6 +29,7 @@ const App = ()=>{
     fontSize:{
       logoSize : "2.5rem",
       menuSize : "2rem",
+      mobileMenuSize:"5rem",
       buttonfontSize : "1.8rem",
       profileSize: "1.5rem",
       aboutImageParaSize:"1.5rem",
