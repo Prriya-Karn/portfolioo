@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import styled from "styled-components";
 import Skills from "./Skills";
 import Button from "../Button/Button";
+import Pro1 from "../Images/portfoliopro1.png";
 const About = () => {
     return (
         <Fragment>
@@ -11,7 +12,7 @@ const About = () => {
 
                 <div className="about-image">
                 <div className="about-image-left">
-                <img src="/Images/portfoliopro1.png"/>
+                <img src={Pro1}/>
                 </div>
                 <div className="about-image-right">
                 <p><span>Name:</span> Priya Karn</p>

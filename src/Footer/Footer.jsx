@@ -1,5 +1,8 @@
 import React, { Fragment, useEffect, useState } from "react";
 import styled from "styled-components";
+import Up from "../Images/uparrow.png";
+
+
 const Footer = ()=>{
   const [scroll,setScroll] = useState(false);
   const top  = ()=>{
@@ -29,7 +32,7 @@ const Footer = ()=>{
        <p>Copyright @ 2024 by @priyakarncode | All Rights Reserved.</p>
 {
   scroll === true? <div className="footImg1" onClick={top}>
-  <img src="/Images/uparrow.png"/> 
+  <img src={Up}/> 
   </div>:""
 } 
        </div>

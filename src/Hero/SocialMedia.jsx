@@ -1,17 +1,25 @@
 import React, { Fragment } from "react";
 import styled from "styled-components";
+import Github from "../Images/github.png";
+import LeetCode from "../Images/leetcode.png";
+import LinkedIn from "../Images/linkedin.png";
+import Twitter from "../Images/twitter.png";
+
+
+
+
 const socialImage = [
     {
-        image : "/Images/github1.png"
+        image : {Github}
     },
     {
-        image : "/Images/leetcode1.png"
+        image : {LeetCode}
     },
     {
-        image : "/Images/linkedin1.png"
+        image : {LinkedIn}
     },
     {
-        image : "/Images/twitter1.png"
+        image : {Twitter}
     },
     
 ]
@@ -21,21 +29,21 @@ const SocialMedia = ()=>{
         <SocialWrap>
         <div className="social">
        <button>
-       <img className="socialImage" src= "/Images/github.png"/>
+       <img className="socialImage" src= {Github}/>
         
        </button>
       
         
        <button>
-        <img className="socialImage" src= "/Images/leetcode.png"/>
+        <img className="socialImage" src= {LeetCode}/>
         </button>
 
         <button>
-        <img className="socialImage" src= "/Images/twitter.png"/>
+        <img className="socialImage" src= {Twitter}/>
         </button>
         
         <button>
-        <img className="socialImage" src= "/Images/linkedin.png"/>
+        <img className="socialImage" src= {LinkedIn}/>
         </button>
       
         </div>

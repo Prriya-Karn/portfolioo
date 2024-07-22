@@ -3,6 +3,8 @@ import styled from "styled-components";
 import Button from "../Button/Button";
 import SocialMedia from "./SocialMedia";
 import Blob from "../Blob/Blob";
+import Pro from "../Images/portfoliopro.png";
+
 const Hero = () => {
     return (
         <Fragment>
@@ -25,13 +27,16 @@ const Hero = () => {
 
                         <div className="hero-image">
                      <Blob/>
-                            <img src="/Images/portfoliopro.png" />
-                        </div>
+                            <img src={Pro} alt="image" />
+                           
+                       
+                            </div>
                     </div>
-                </section>
+                        </section>
             </HeroWrap>
         </Fragment>
     )
+                   
 }
 
 
