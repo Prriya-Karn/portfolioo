@@ -72,7 +72,7 @@ color:#6CB4EE;
 display:none;
 }
 
-@media(max-width:${({theme})=>theme.mediaQuery.mobile}){
+@media(max-width:980px){
 
 .menu-list{
 
@@ -100,12 +100,6 @@ color : ${({ theme }) => theme.colors.menuColor};
 font-weight:700;
 transition:color 0.3s linear;
 }
-
-
-
-
-
-
 }
 
 

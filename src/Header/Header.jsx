@@ -86,8 +86,18 @@ display:none;
 .hamburger,.close{
 
 }
+@media(width<=320px){
+.blob-head{
+position:absolute;
+top:-2rem;
+left:10rem;
+width:70vw !important;
+overflow:hidden;
+z-index:-1;
+}
 
-@media(max-width:${({ theme }) => theme.mediaQuery.mobile}){
+}
+@media(max-width:980px){
 
 .blob-head{
 left:20%;

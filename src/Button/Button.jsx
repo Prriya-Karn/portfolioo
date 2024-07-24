@@ -5,7 +5,7 @@ const Button = (props)=>{
     return(
         <Fragment>
         <ButtonWrap>
-        <button>{props.name}</button>
+        <button className="heroButton">{props.name}</button>
         
         </ButtonWrap>
         </Fragment>
@@ -13,9 +13,9 @@ const Button = (props)=>{
 }
 
 
-const ButtonWrap = styled.button`
+const ButtonWrap = styled.div`
 button{
-border:none;
+outline:none;
 background: linear-gradient(45deg,rgba(0, 45, 80, 0.8),rgba(0, 45, 80, 0.8) 40%, rgba(0, 45, 80, 0.5) 60%, rgba(0, 45, 80, 0.8) 80%,rgba(0, 45, 80, 0.8));
     font-size: ${({ theme }) => theme.fontSize.buttonfontSize};
     padding: 1rem 5rem;
@@ -30,6 +30,55 @@ background: linear-gradient(45deg,rgba(0, 45, 80, 0.8),rgba(0, 45, 80, 0.8) 40%,
 button:active{
 transform : scale(0.9);
 }
+
+
+@media(width<=768px){
+
+
+}
+
+@media(width<=400px){
+.heroButton{
+outline:none;
+background: linear-gradient(45deg,rgba(0, 45, 80, 0.8),rgba(0, 45, 80, 0.8) 40%, rgba(0, 45, 80, 0.5) 60%, rgba(0, 45, 80, 0.8) 80%,rgba(0, 45, 80, 0.8));
+    font-size: ${({ theme }) => theme.fontSize.buttonfontSize};
+    padding: 1rem 5rem;
+    line-height: 2.5rem;
+    color: ${({ theme }) => theme.colors.white};
+    cursor: pointer;
+    transition: all 0.1s ease;
+    height:11vh;
+    width:100%;
+  
+}
+
+}
+
+@media(width<=320px){
+.heroButton{
+margin-top:10vw;
+    width:130vw !important;
+}
+}
+
+
+
+@media(width<=998px){
+.heroButton{
+outline:none;
+background: linear-gradient(45deg,rgba(0, 45, 80, 0.8),rgba(0, 45, 80, 0.8) 40%, rgba(0, 45, 80, 0.5) 60%, rgba(0, 45, 80, 0.8) 80%,rgba(0, 45, 80, 0.8));
+    font-size: ${({ theme }) => theme.fontSize.buttonfontSize};
+    padding: 1rem 5rem;
+    line-height: 2.5rem;
+    color: ${({ theme }) => theme.colors.white};
+    cursor: pointer;
+    transition: all 0.1s ease;
+    height:11vh;
+    width:500%;
+}
+
+}
+
 `;
 
 export default Button;

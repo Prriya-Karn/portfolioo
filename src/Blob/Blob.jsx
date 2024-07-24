@@ -74,6 +74,34 @@ const BlobWrapper = styled.div`
         animation: blobAnimation 8s infinite , glow 2s infinite;
       }
     
+
+@media(width<=998px){
+.blob svg{
+postition:absolute;
+    margin-left:9rem;
+    width:1000%;
+    z-index:-1;
+}
+
+}
+
+@media(width<=240px){
+.blob svg{
+postition:absolute;
+    margin-left:-5vw;
+    width:200% !important;
+    z-index:-1;
+}
+}
+
+@media(width<=600px){
+.blob svg{
+postition:absolute;
+    margin-left:-5vw;
+    width:1000%;
+    z-index:-1;
+}
+}
 `;
 
 
