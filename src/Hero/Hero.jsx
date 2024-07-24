@@ -331,12 +331,48 @@ postition:absolute;
     .hero-data h1{
     font-size:12vw;
     }
+  }
+
+  @media(width<=1220px){
   
+.hero-container{
+padding-top:20rem;
+margin-left:70vw;
+width:300%;
+}
 
 
-
+.hero-data{
+width:200vw;
+min-height:70vh;
+padding:3vw;
 
 }
+
+.hero-image{
+
+min-height:30vh;
+width:100vw;
+position:relative;
+}
+
+.hero-image img{
+postition:absolute;
+    margin-left:5rem;
+    width:90vw;
+    }
+
+.hero-data h5{
+    color:${({ theme }) => theme.colors.grey};
+    font-size:7vw;
+    }
+    
+    
+    .hero-data h1{
+    font-size:12vw;
+    }
+  
+  }
 
 `;
 export default Hero;

@@ -84,19 +84,13 @@ align-items:center;
 .social button{
     cursor:pointer;
     margin-left:5vw;
-    border : 2px solid ${({theme})=>theme.colors.buttonBackColor};
-    border-radius:50%;
-    width:10%;
-    height:10vh !important;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    width:20vw !important;
+    height:8vh !important;
     }
 
     
 .socialImage{
-border-radius:50%;
-width:35% !important;
+width:30% !important;
 height:5vh !important;
 }
 
@@ -123,7 +117,13 @@ width:40% !important;
 height:6vh !important;
 }
 }
-
+@media(width<=1200px){
+.social button{
+margin-left:5vw;
+max-width:7%;
+height:20vh;
+}
+}
 @media(width<=998px){
 .social{
 margin-left:-5vw;
@@ -131,23 +131,39 @@ margin-bottom:6vw;
 }
 
 .socialImage{
-border-radius:50%;
 width:50%;
 height:10vh;
+}
+.social button{
+margin-left:5vw;
+max-width:7%;
+height:20vh;
+}
+}
+@media(width<=600px){
+
+.social{
+margin-left:-5vw;
+margin-bottom:6vw;
+}
+
+.socialImage{
+border-radius:50%;
+width:30% !important;
+height:7vh !important;
 }
 .social button{
 cursor:pointer;
 margin-left:5vw;
 border : 2px solid ${({theme})=>theme.colors.buttonBackColor};
 border-radius:50%;
-width:10%;
-height:20vh;
+width:8% !important;
+height:15vh !important;
 display:flex;
 justify-content:center;
 align-items:center;
 }
 }
-
 @media(width<=500px){
 .social{
 margin-left:-5vw;
@@ -156,8 +172,8 @@ margin-bottom:6vw;
 
 .socialImage{
 border-radius:50%;
-width:50%;
-height:8vh;
+width:30%;
+height:6vh !important;
 }
 .social button{
 cursor:pointer;
@@ -165,12 +181,37 @@ margin-left:5vw;
 border : 2px solid ${({theme})=>theme.colors.buttonBackColor};
 border-radius:50%;
 width:10%;
-height:16vh;
+height:15vh !important;
 display:flex;
 justify-content:center;
 align-items:center;
 }
 }
+@media(width<=1220px){
+.social{
+margin-left:-5vw;
+margin-bottom:6vw;
+}
+
+.socialImage{
+border-radius:50%;
+width:50%;
+height:6vh;
+}
+.social button{
+cursor:pointer;
+margin-left:5vw;
+border : 2px solid ${({theme})=>theme.colors.buttonBackColor};
+border-radius:50%;
+width:10%;
+height:10vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+}
+
+
 
 `;
 

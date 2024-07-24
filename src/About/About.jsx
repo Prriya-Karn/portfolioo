@@ -29,9 +29,11 @@ const About = () => {
                 </div>
                 
 
-                    <div className="hero-data">
-                   
-                    <h1>About Me</h1>
+                    <div className="hero-data about-data">
+                   <div className="mob-about">
+                   <h1>About Me</h1>
+                   </div>
+                    
                     <div className="about-border">.</div>
                     <p>I'm Priya Karn. A Front End Developer,youtuber,and freelancer.
                     A Front End Developer,youtuber,and freelancer.
@@ -81,6 +83,7 @@ margin-bottom : 40rem;
 
 .about-image{
 
+  
 height:auto;
 display:grid;
 
@@ -193,5 +196,364 @@ color : ${({theme})=>theme.colors.grey};
 font-size:1.5rem;
 margin-bottom:1.5rem;
 }
+
+
+
+
+ @media(width<=1220px){
+ section{
+padding:9rem 0;
+margin-bottom : 70vw;
+width:300vw;
+height:200vh;
+margin-left:60vw;
+}
+
+
+
+.about-image{
+
+height:auto;
+display:grid;
+  grid-template-columns : repeat(2,1fr);
+
+}
+
+  .about-image-left{
+width:100vw;
+  height:20vh;
+ margin-left:8vw;
+  }
+   .about-image-left img{
+  height: 75vh;
+  width:50vw;
+  margin-top:1vw;
+   }
+
+
+.about-image-right{
+margin-left:-10vw;
+width:80vw;
+margin-top:1vw;
+height:60vh;
+}
+
+.about-image-right p{
+font-size:5vw;
+line-height:15vh;
+}
+
+.profile{
+margin-bottom:10vw;
+margin-top:10vw;
+max-width:80vw;
+height:auto;
+display:grid;
+
+  grid-template-columns : repeat(2,1fr);
+}
+
+.pro-left .pro-para-left{
+width:20vw;
+font-size:4vw;
+}
+
+.about-data{
+padding-left:10rem;
+width:200vw;
+margin-left:25vw;
+}
+
+
+.about-data h1{
+font-size:10vw;
+max-width:80%; 
+}
+ .about-border{
+ max-width:30vw;
+   margin-bottom:5vw;  
+ }
+.about-data p{
+max-width:90vw;
+font-size:4vw;
+margin-bottom:2vw;
+}
+ }
+
+ @media(width<=800px){
+ 
+.about-image-right{
+margin-left:-30vw;
+width:80vw;
+margin-top:1vw;
+height:60vh;
+}
+ }
+@media(width<=998px){}
+
+@media(width<=768px){
+ section{
+padding:9rem 0;
+margin-bottom : 70vw;
+width:300vw;
+height:200vh;
+margin-left:60vw;
+}
+
+
+
+.about-image{
+
+height:auto;
+display:grid;
+  grid-template-columns : repeat(2,1fr);
+
+}
+
+  .about-image-left{
+width:100vw;
+  height:20vh;
+ margin-left:8vw;
+  }
+   .about-image-left img{
+  height: 60vh;
+  width:45vw;
+  margin-top:1vw;
+   }
+
+
+.about-image-right{
+margin-left:-40vw;
+width:80vw;
+margin-top:1vw;
+height:60vh;
+}
+
+.about-image-right p{
+font-size:5vw;
+line-height:15vh;
+}
+
+}
+@media(width<=600px){
+
+.about-image-right p{
+font-size:5vw;
+line-height:10vh;
+}
+  .about-image-left img{
+  height: 50vh;
+  width:45vw;
+  margin-top:1vw;
+   }
+}
+   @media(width<=500px){
+   
+.about-image-right p{
+font-size:5vw;
+line-height:8vh;
+}
+  .about-image-left img{
+  height: 40vh;
+  width:45vw;
+  margin-top:1vw;
+   }
+  
+.profile{
+margin-bottom:10vw;
+margin-top:10vw;
+max-width:80vw;
+height:auto;
+display:grid;
+line-height:10vh;
+  grid-template-columns : repeat(2,1fr);
+}
+
+.pro-left .pro-para-left{
+width:20vw;
+
+font-size:5vw;
+}
+
+.about-data{
+padding-left:10rem;
+width:200vw;
+margin-left:25vw;
+}
+
+
+.about-data h1{
+font-size:10vw;
+max-width:80%; 
+}
+ .about-border{
+ max-width:30vw;
+   margin-bottom:5vw;  
+ }
+.about-data p{
+max-width:90vw;
+font-size:4vw;
+margin-bottom:2vw;
+}
+  }
+
+
+@media(width<=400px){
+.hero-container{
+grid-template-columns:1fr;
+
+}
+.about-image{
+margin-top:30vw;
+margin-bottom:40vw;
+  order:2;
+height:90vh;
+display:grid;
+
+  grid-template-columns : repeat(2,1fr);
+}
+.about-image-right{
+  margin-left:-150vw;
+  width:200vw;
+  margin-top:1vw;
+  height:60vh;
+  }
+  
+.about-image-right p{
+  font-size:7vw;
+  line-height:10vh;
+  }
+    .about-image-left img{
+    min-height: 40vh !important;
+    max-width:900vw !important;
+    margin-top:1vw;
+     }
+    
+  .profile{
+  margin-bottom:1vw;
+  margin-top:10vw;
+  max-width:200vw;
+  height:100vh;
+  display:grid;
+  line-height:12vh;
+    grid-template-columns : repeat(2,1fr);
+  }
+  
+  .pro-left .pro-para-left{
+  width:50vw;
+  font-size:8vw;
+  }
+  
+  .about-data{
+  order:1;
+  padding-left:10rem;
+  width:500vw;
+  margin-left:-10vw;
+  margin-bottom:10vw;
+  }
+  
+  
+  .about-data h1{
+  font-size:16vw;
+  max-width:80%; 
+  }
+   .about-border{
+   max-width:30vw;
+     margin-bottom:5vw;  
+   }
+  .about-data p{
+  max-width:200vw;
+  font-size:8vw;
+  margin-bottom:2vw;
+  }
+}
+
+@media(width<=320px){
+ 
+.hero-container{
+grid-template-columns:1fr;
+
+}
+.about-image{
+margin-top:30vw;
+margin-bottom:40vw;
+  order:2;
+height:90vh;
+display:grid;
+
+  grid-template-columns : repeat(2,1fr);
+}
+.about-image-right{
+  margin-left:-90vw;
+  width:200vw;
+  margin-top:2vw;
+  height:60vh;
+  }
+  
+.about-image-right p{
+  font-size:10vw;
+  line-height:10vh;
+  }
+     .about-image-left{
+     width:300vw;
+     }
+    .about-image-left img{
+    min-height: 50vh !important;
+  width:100vw;
+    margin-top:1vw;
+     }
+    
+  .profile{
+  margin-bottom:1vw;
+  margin-top:10vw;
+  max-width:300vw;
+  height:120vh;
+  display:grid;
+  line-height:15vh;
+    grid-template-columns : repeat(2,1fr);
+  }
+  
+  .pro-left .pro-para-left{
+  width:90vw;
+    font-size:14vw;
+  }
+  
+  .about-data{
+  order:1;
+  padding-left:10rem;
+  width:500vw;
+  margin-left:-10vw;
+  margin-bottom:10vw;
+  }
+  
+  
+  .about-data h1{
+  font-size:16vw;
+  max-width:80%; 
+  }
+   .about-border{
+   max-width:30vw;
+     margin-bottom:5vw;  
+   }
+  .about-data p{
+  max-width:250vw;
+  font-size:14vw;
+  margin-bottom:2vw;
+  }
+}
+
+@media(width<=240px){}
+
+
+
+
+
+
+
+
+
+
+
+
 `;
 export default About;

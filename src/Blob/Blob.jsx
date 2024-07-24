@@ -84,7 +84,14 @@ postition:absolute;
 }
 
 }
+@media(width<=1220px){
+.blob svg{
+    margin-left:15rem;
+width:300vw;
+    z-index:-1;
+}
 
+}
 @media(width<=240px){
 .blob svg{
 postition:absolute;

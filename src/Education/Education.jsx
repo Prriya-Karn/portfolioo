@@ -138,6 +138,360 @@ margin-top:1rem;
 margin-top:1rem;
 }
 
+
+@media(width<=1220px){
+.edu-container{
+width:200vw;
+  margin-top:-30rem;  
+  margin-left:90vw;
+  min-height:100vh;
+  }
+  .edu-head{
+
+  font-size:10vw;
+  text-align:center;
+  }
+  .edu-border{
+  margin-top:1rem;
+  margin-left:75vw;
+  margin-bottom:10vw;
+  max-width:30vw;
+  }
+  
+  .main-edu-card{
+  width:200vw;
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  height:15rem;
+  position:relative;
+  }
+    .diploma{
+
+  max-width:90vw;
+  height:50vh;
+  margin-left:7vw;
+  border-radius:1rem;
+  }
+  .btech{
+  background-color:${({theme})=>theme.colors.eduboxColor};
+  border-radius:1rem;
+ max-width:90vw;
+
+  }
+  .blob-edu{
+  position:absolute;
+  top:-14vw;
+  left:-15vw;
+  z-index:-1;
+  width:70vw;
+  }
+      
+  .blob-edu-1{
+  position:absolute;
+  top:-12vw;
+  left:150vw;
+  z-index:-1;
+  width:70vw;
+  
+  
+  }
+
+  
+  .main-edu-card h1{
+  font-size: 4vw;
+  }
+  
+  .content{
+  padding-left:8vw;
+  padding-top:4vw;
+  }
+  
+  .main-edu-card p{
+  font-size : 2vw;
+  }
+  
+  .edu-name{
+  margin-top:1rem;
+  }
+  .cg{
+  margin-top:1rem;
+  }
+  
+}
+ @media(width<=800px){}
+ @media(width<=998px){
+.edu-container{
+width:200vw;
+  margin-top:-10vw;  
+  margin-left:90vw;
+  min-height:100vh;
+  }
+ }
+ 
+@media(width<=768px){}
+
+
+@media(width<=600px){
+.edu-container{
+width:200vw;
+ margin-top:-30vw;    
+  margin-left:90vw;
+  min-height:100vh;
+  }
+  .edu-head{
+
+  font-size:10vw;
+  text-align:center;
+  }
+  .edu-border{
+  margin-top:1rem;
+  margin-left:77vw;
+  margin-bottom:10vw;
+  max-width:30vw;
+  }
+  
+  .main-edu-card{
+  width:200vw;
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  height:15rem;
+  position:relative;
+  }
+    .diploma{
+
+  max-width:100vw;
+  height:50vh;
+  margin-left:-1vw;
+  border-radius:1rem;
+  }
+  .btech{
+  background-color:${({theme})=>theme.colors.eduboxColor};
+  border-radius:1rem;
+  max-width:120vw;
+  margin-left:10vw;
+  }
+  .blob-edu{
+  position:absolute;
+  top:-30vw;
+  left:-40vw;
+  z-index:-1;
+  width:90vw;
+  }
+      
+  .blob-edu-1{
+  position:absolute;
+  top:-16vw;
+  left:150vw;
+  z-index:-1;
+  width:100vw;
+  
+  
+  }
+
+  
+  .main-edu-card h1{
+  font-size: 6vw;
+  }
+  
+  .content{
+  padding-left:8vw;
+  padding-top:4vw;
+  }
+  
+  .main-edu-card p{
+  font-size : 3vw;
+  }
+  
+  .edu-name{
+  margin-top:1rem;
+  }
+  .cg{
+  margin-top:1rem;
+  }
+  
+}
+
+   @media(width<=500px){
+    .btech{
+  background-color:${({theme})=>theme.colors.eduboxColor};
+  border-radius:1rem;
+  width:95vw;
+  margin-left:10vw;
+  }
+   }
+   @media(width<=400px){
+   .edu-container{
+width:200vw;
+ margin-top:350vw !important;    
+  margin-left:80vw;
+  min-height:100vh;
+  }
+  .edu-head{
+  font-size:18vw;
+  text-align:center;
+  }
+  .edu-border{
+  margin-top:1rem;
+  margin-left:60vw;
+  margin-bottom:18vw;
+  max-width:50vw;
+  }
+  
+  .main-edu-card{
+  width:200vw;
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  height:15rem;
+  position:relative;
+  }
+    .diploma{
+
+ width:300vw;
+  height:50vh;
+  margin-left:-1vw;
+  border-radius:1rem;
+  }
+  .btech{
+  background-color:${({theme})=>theme.colors.eduboxColor};
+  border-radius:1rem;
+  max-width:120vw;
+  margin-left:10vw;
+  }
+  .blob-edu{
+  position:absolute;
+  top:-30vw;
+  left:-50vw;
+  z-index:-1;
+  width:120vw;
+  }
+      
+  .blob-edu-1{
+  position:absolute;
+  top:-16vw;
+  left:150vw;
+  z-index:-1;
+  width:120vw;
+  
+  
+  }
+
+  
+  .main-edu-card h1{
+  font-size: 7vw;
+  }
+  
+  .content{
+  padding-left:8vw;
+  padding-top:10vw;
+  }
+  
+  .main-edu-card p{
+  font-size : 4vw;
+  }
+  
+  .edu-name{
+  margin-top:1rem;
+  }
+  .cg{
+  margin-top:1rem;
+  }
+   }
+   @media(width<=320px){
+     .edu-container{
+width:200vw;
+ margin-top:550vw !important;    
+  margin-left:80vw;
+  min-height:100vh;
+  }
+  .edu-head{
+  font-size:18vw;
+  text-align:center;
+  }
+  .edu-border{
+  margin-top:1rem;
+  margin-left:60vw;
+  margin-bottom:18vw;
+  max-width:50vw;
+  }
+  
+  .main-edu-card{
+  width:200vw;
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  height:15rem;
+  position:relative;
+  }
+    .diploma{
+
+ width:300vw;
+  height:30vh;
+  margin-left:-1vw;
+  border-radius:1rem;
+  }
+  .btech{
+    height:30vh;
+  background-color:${({theme})=>theme.colors.eduboxColor};
+  border-radius:1rem;
+  max-width:120vw;
+  margin-left:10vw;
+  }
+  .blob-edu{
+  position:absolute;
+  top:-30vw;
+  left:-50vw;
+  z-index:-1;
+  width:120vw;
+  }
+      
+  .blob-edu-1{
+  position:absolute;
+  top:-16vw;
+  left:140vw;
+  z-index:-1;
+  width:120vw;
+  
+  
+  }
+
+  
+  .main-edu-card h1{
+  font-size: 6vw;
+  }
+  
+  .content{
+  padding-left:8vw;
+  padding-top:10vw;
+  }
+  
+  .main-edu-card p{
+  font-size : 3.5vw;
+  }
+  
+  .edu-name{
+  margin-top:1rem;
+  }
+  .cg{
+  margin-top:1rem;
+  }
+   }
+
+
+
+
+
+
+
+@media(width<=400px){
+.edu-container{
+margin-top:500vw;  
+}
+
+
+}
+
+
+
+
 `;
 
 export default Education;
