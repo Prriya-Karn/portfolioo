@@ -247,7 +247,7 @@ height:100vh;
 }
 
 .cont-inp{
-gap:2vw;
+gap:2rem;
 }
 .edu-border{
 margin-left:65vw;
@@ -319,6 +319,7 @@ max-width:40vw;
 
 .contact-form input{
 font-size:8vw;
+width:125vw;
 height:20vh;
 margin-bottom:2rem;
 padding:0 0 0 5vw;
