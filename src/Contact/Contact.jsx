@@ -146,6 +146,201 @@ top:2rem;
 left:25rem;
 }
 
+
+@media(width<=1220px){
+
+.blob-con-1{
+position:relative;
+max-width:50vw;
+left:-20vw;
+top:-18vw;
+z-index:-1;
+}
+
+.contact-container{
+height:200vh;
+width:160vw;
+margin-top:80vw;
+margin-bottom:30vw;
+margin-left:110vw;
+}
+
+.contact-form{
+margin-left:1vw;
+margin-top:-50vw;
+max-width:500vw;
+height:100vh;
+}
+
+.cont-inp{
+gap:2rem;
+}
+.edu-border{
+margin-left:65vw;
+}
+
+
+
+.contact-form input{
+font-size:4vw;
+height:20vh;
+margin-bottom:2rem;
+padding:0 0 0 5vw;
+}
+.input-contact{
+display:flex;
+flex-direction:column;
+margin-bottom:2rem;
+}
+
+.textarea{
+font-size:4vw;
+height:70vh;
+padding:2vw 0 0 5vw;
+margin-top:-50vw;
+}
+
+.blob-con-2{
+position:relative;
+width:50vw;
+z-index:-1;
+top:1vw;
+left:120vw;
+}
+}
+ @media(width<=800px){}
+ @media(width<=998px){}
+ @media(width<=768px){}
+ @media(width<=600px){
+ 
+.contact-form input{
+font-size:7vw;
+
+}
+.textarea{
+font-size:7vw;
+}
+ }
+    @media(width<=500px){
+    .contact-form input{
+font-size:7vw;
+
+}
+.textarea{
+font-size:7vw;
+}
+    }
+     @media(width<=400px){
+     
+.blob-con-1{
+position:relative;
+max-width:80vw;
+left:-20vw;
+top:-18vw;
+z-index:-1;
+}
+
+.contact-container{
+height:200vh;
+width:260vw;
+margin-top:-60vw;
+margin-left:68vw;
+}
+
+.contact-form{
+margin-left:5vw;
+margin-top:-70vw;
+max-width:400vw;
+height:100vh;
+}
+
+.cont-inp{
+gap:2rem;
+}
+.edu-border{
+margin-left:90vw;
+max-width:40vw;
+}
+
+
+
+.contact-form input{
+font-size:8vw;
+height:20vh;
+margin-bottom:2rem;
+padding:0 0 0 5vw;
+}
+.input-contact{
+display:flex;
+flex-direction:column;
+margin-bottom:2rem;
+}
+
+.textarea{
+font-size:8vw;
+height:70vh;
+padding:2vw 0 0 5vw;
+margin-top:-80vw;
+}
+
+.blob-con-2{
+position:relative;
+width:80vw;
+z-index:-1;
+top:1vw;
+left:120vw;
+}
+     }
+     @media(width<=320px){
+     .contact-container{
+height:200vh;
+width:260vw;
+margin-top:-180vw;
+margin-left:60vw;
+}
+
+.contact-form{
+margin-left:5vw;
+margin-top:-70vw;
+max-width:400vw;
+height:100vh;
+}
+
+.cont-inp{
+gap:2rem;
+}
+.edu-border{
+margin-left:100vw;
+max-width:40vw;
+}
+
+
+
+.contact-form input{
+font-size:8vw;
+height:16vh;
+margin-bottom:2rem;
+padding:0 0 0 5vw;
+}
+.input-contact{
+display:flex;
+flex-direction:column;
+margin-bottom:2rem;
+}
+
+.textarea{
+font-size:8vw;
+height:50vh;
+padding:2vw 0 0 5vw;
+margin-top:-80vw;
+}
+     
+     }
+
+
+
+
+
 `;
 
 export default Contact;

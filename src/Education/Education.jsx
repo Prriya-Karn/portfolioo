@@ -141,8 +141,9 @@ margin-top:1rem;
 
 @media(width<=1220px){
 .edu-container{
+
 width:200vw;
-  margin-top:-30rem;  
+  margin-top:50vw;
   margin-left:90vw;
   min-height:100vh;
   }
@@ -168,16 +169,19 @@ width:200vw;
     .diploma{
 
   max-width:90vw;
-  height:50vh;
+  height:60vh;
   margin-left:7vw;
   border-radius:1rem;
   }
+
   .btech{
   background-color:${({theme})=>theme.colors.eduboxColor};
   border-radius:1rem;
  max-width:90vw;
-
+  height:60vh;
   }
+
+
   .blob-edu{
   position:absolute;
   top:-14vw;
@@ -265,6 +269,7 @@ width:200vw;
   border-radius:1rem;
   }
   .btech{
+    height:50vh;
   background-color:${({theme})=>theme.colors.eduboxColor};
   border-radius:1rem;
   max-width:120vw;

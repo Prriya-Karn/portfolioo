@@ -86,6 +86,12 @@ display:none;
 .hamburger,.close{
 
 }
+
+
+
+
+
+
 @media(width<=320px){
 .blob-head{
 position:absolute;
@@ -97,6 +103,8 @@ z-index:-1;
 }
 
 }
+
+
 @media(max-width:980px){
 
 .blob-head{

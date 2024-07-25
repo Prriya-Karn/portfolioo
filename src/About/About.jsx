@@ -220,14 +220,14 @@ display:grid;
 }
 
   .about-image-left{
-width:100vw;
-  height:20vh;
+width:200vw;
+  height:90vh;
  margin-left:8vw;
   }
    .about-image-left img{
-  height: 75vh;
+  height: 98vh;
   width:50vw;
-  margin-top:1vw;
+  margin-top:-3vw;
    }
 
 

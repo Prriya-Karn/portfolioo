@@ -195,16 +195,16 @@ margin-bottom:6vw;
 
 .socialImage{
 border-radius:50%;
-width:50%;
-height:6vh;
+width:48%;
+height:7vh;
 }
 .social button{
 cursor:pointer;
 margin-left:5vw;
 border : 2px solid ${({theme})=>theme.colors.buttonBackColor};
 border-radius:50%;
-width:10%;
-height:10vh;
+width:8vw;
+height:15vh;
 display:flex;
 justify-content:center;
 align-items:center;
