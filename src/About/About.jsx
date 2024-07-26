@@ -402,11 +402,9 @@ margin-bottom:2vw;
 .hero-container{
 grid-template-columns:1fr;
     margin-left:-20vw !important;
-    height:600vh;
 }
 .about-image{
-margin-top:50vw;
-margin-bottom:40vw;
+margin-top:350vw;
   order:2;
 height:90vh;
 display:grid;
