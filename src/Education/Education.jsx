@@ -326,9 +326,10 @@ width:200vw;
    }
    @media(width<=400px){
    .edu-container{
+   background-color:orange;
 width:300vw;
     margin-left:50vw !important;
- margin-top:480vw !important;    
+ margin-top:600vw !important;    
   margin-left:80vw;
   min-height:100vh;
   }
@@ -404,6 +405,7 @@ width:130vw !important;
    }
    @media(width<=320px){
      .edu-container{
+     
 width:200vw;
  margin-top:550vw !important;    
   margin-left:80vw;

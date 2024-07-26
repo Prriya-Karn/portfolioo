@@ -402,6 +402,7 @@ margin-bottom:2vw;
 .hero-container{
 grid-template-columns:1fr;
     margin-left:-20vw !important;
+    height:600vh;
 }
 .about-image{
 margin-top:50vw;
