@@ -282,8 +282,9 @@ color:${({theme})=>theme.colors.buttonBackColor};
   }
      @media(width<=400px){
      .footerContainer p{
+         width:250vw;
 padding:8vw 0 0 15vw;
-font-size:6vw;
+font-size:8vw;
 font-weight:bold;
 color:${({theme})=>theme.colors.buttonBackColor};
 }
@@ -291,7 +292,7 @@ color:${({theme})=>theme.colors.buttonBackColor};
 .footerContainer img{
   width:90vw;
   margin-top:2rem;
-  margin-left:50rem;
+  margin-left:-20vw;
   }
   
   .footImg1 img{
@@ -306,7 +307,7 @@ color:${({theme})=>theme.colors.buttonBackColor};
   display:flex;
   place-items:center;
   margin-top:-10vw !important;
-  margin-left:120vw;
+  margin-left:90vw;
   margin-bottom:7vw;
     position: fixed;
     bottom: 0;

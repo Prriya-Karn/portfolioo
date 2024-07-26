@@ -7,11 +7,12 @@ const Projects = () => {
         <Fragment>
             <ProjectWrapper>
                 <div className="project-container">
+                <div className="mob-pro-head">
                 <Heading
                 headName = "Projects"
                 className = "edu-border"
                 />
-
+                </div>
                     <div className="card-project">
                         <div className="card-row row-1">
                         
@@ -884,20 +885,21 @@ color:white;
 .project-container{
 
 height:200vh;
-width:200vw;
-  margin-left:90vw;
+width:280vw;
+    margin-left:50vw !important;
   margin-bottom:20rem;
 }
 
 
   .edu-border{
-  margin-left:80vw;
+  margin-left:110vw;
   }
 
 
   .card-project{
   margin-left:-88vw;
   display:grid;
+  max-width:400vw;
   grid-template-row : repeat(2,1fr);
   }
   
@@ -905,10 +907,10 @@ width:200vw;
    
   display:grid;
   grid-template-columns : repeat(3,1fr);
-  max-width:200vw;
+
 
   height:40vh;
-  gap:1rem;
+  
   margin-top:1rem;
   position:relative;
   
@@ -967,6 +969,7 @@ width:200vw;
       border-radius: 2rem;
       overflow: hidden;
   cursor : pointer;
+  width:93vw;
   }
 
   .column-pro h1{
@@ -976,14 +979,14 @@ width:200vw;
   place-items:center;
   align-items:center;
   height:100%;
-  font-size:6vw !important;
+  font-size:10vw !important;
   z-index:-1;
   }
   
   
 .prolink{
 
-width:15vw;
+width:18vw;
 margin-bottom:10vw;
 height:18vh;
 border-radius:1rem;
@@ -994,13 +997,14 @@ border-radius:1rem;
 
 }
 .pro-layer img{
-width:8vw;
+width:10vw;
 height:7vh;
 }
  
    
   .pro-layer h1{
 color:white;
+font-size:8vw !important;
   }
   }
 
