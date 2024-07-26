@@ -484,20 +484,6 @@ width:200vw;
 
 
 
-
-
-
-@media(width<=400px){
-.edu-container{
-margin-top:500vw;  
-}
-
-
-}
-
-
-
-
 `;
 
 export default Education;
