@@ -653,6 +653,89 @@ width:300vw !important;
   margin-top:1rem;
   }
    }
+
+   @media(width<=370px){
+    .edu-container{
+width:300vw !important;
+  margin-top:380vw !important;
+  margin-left:40vw;
+ height:150vh;
+  }
+  .edu-head{
+       font-size:18vw;
+  }
+  .edu-border{
+  margin-top:1rem;
+  margin-left:110vw;
+  margin-bottom:10vw;
+  max-width:60vw;
+  height:2vh;
+  }
+  
+  .main-edu-card{
+  width:300vw;
+  margin-left:8vw;
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  height:15rem;
+  position:relative;
+  }
+    .diploma{
+  max-width:170vw;
+  height:60vh;
+  margin-left:-10vw;
+  border-radius:1rem;
+  }
+
+  .btech{
+  background-color:${({theme})=>theme.colors.eduboxColor};
+  border-radius:1rem;
+  max-width:170vw;
+  height:60vh;
+  }
+
+
+  .blob-edu{
+  position:absolute;
+  top:-30vw;
+  left:-50vw;
+  z-index:-1;
+  width:90vw;
+  }
+      
+  .blob-edu-1{
+  position:absolute;
+  top:6vw;
+  left:250vw;
+  z-index:-1;
+  width:160vw;
+  
+  
+  }
+
+  
+  .main-edu-card h1{
+  width:160vw;
+  font-size: 13vw;
+  }
+  
+  .content{
+  padding-left:8vw;
+  padding-top:4vw;
+  }
+  
+  .main-edu-card p{
+  width:160vw;
+  font-size : 7vw;
+  }
+  
+  .edu-name{
+  margin-top:1rem;
+  }
+  .cg{
+  margin-top:1rem;
+  }
+   }
    @media(width<=320px){
     .edu-container{
 width:300vw !important;

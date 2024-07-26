@@ -859,7 +859,7 @@ section{
   margin-bottom : 70vw;
   width:300vw !important;
   height:400vh;
-  margin-top:40vw;
+  margin-top:-20vw !important;
   margin-left:50vw !important;
 
   }

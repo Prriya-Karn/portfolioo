@@ -1144,8 +1144,8 @@ font-size:10vw !important;
 @media(width<=370px){
 
 .project-container{
-  margin-top:90vw !important;
-height:200vh;
+  margin-top:20vw !important;
+height:100vh;
 width:200vw;
   margin-left:90vw;
   margin-bottom:20rem;
@@ -1153,7 +1153,8 @@ width:200vw;
 
 
   .edu-border{
-  margin-left:80vw;
+  margin-left:68vw;
+  max-width:50vw;
   }
 
 
@@ -1168,11 +1169,10 @@ width:200vw;
   grid-template-columns : repeat(3,1fr);
   max-width:300vw;
   margin-left:-30vw !important;
-  height:80vh;
+  height:50vh !important;
   gap:1rem;
   margin-top:1rem;
   position:relative;
-  
   }
   
   .blob-pro{
