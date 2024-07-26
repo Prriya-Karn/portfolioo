@@ -460,7 +460,7 @@ max-width:500vw !important;
   width:800vw;
   height:200vh;
   margin-left:-10vw;
-  margin-bottom:10vw;
+  margin-bottom:-500vw;
   }
   
   
