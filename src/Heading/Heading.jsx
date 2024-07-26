@@ -42,7 +42,7 @@ font-size:15vw;
     
   @media(width<=320px){
   .edu-head{
-font-size:10vw;
+font-size:20vw;
 }
 
   .edu-border{

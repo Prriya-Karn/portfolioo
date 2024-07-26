@@ -405,9 +405,9 @@ width:130vw !important;
    @media(width<=320px){
      .edu-container{
      
-width:200vw;
+width:300vw;
  margin-top:550vw !important;    
-  margin-left:80vw;
+    margin-left:50vw !important;
   min-height:100vh;
   }
   .edu-head{
@@ -416,31 +416,30 @@ width:200vw;
   }
   .edu-border{
   margin-top:1rem;
-  margin-left:60vw;
+  margin-left:110vw;
   margin-bottom:18vw;
   max-width:50vw;
   }
   
   .main-edu-card{
-  width:200vw;
+   width:500vw;
   display:grid;
   grid-template-columns:repeat(2,1fr);
   height:15rem;
   position:relative;
   }
-    .diploma{
-
- width:300vw;
-  height:30vh;
+     .diploma{
+max-width:140vw !important;
+  height:40vh;
   margin-left:-1vw;
   border-radius:1rem;
   }
   .btech{
-    height:30vh;
   background-color:${({theme})=>theme.colors.eduboxColor};
   border-radius:1rem;
-  max-width:120vw;
-  margin-left:10vw;
+max-width:140vw !important;
+  height:40vh;
+  margin-left:-90vw;
   }
   .blob-edu{
   position:absolute;
@@ -453,7 +452,7 @@ width:200vw;
   .blob-edu-1{
   position:absolute;
   top:-16vw;
-  left:140vw;
+  left:230vw;
   z-index:-1;
   width:120vw;
   
@@ -462,7 +461,7 @@ width:200vw;
 
   
   .main-edu-card h1{
-  font-size: 6vw;
+  font-size: 8vw;
   }
   
   .content{
@@ -471,7 +470,7 @@ width:200vw;
   }
   
   .main-edu-card p{
-  font-size : 3.5vw;
+  font-size : 5vw;
   }
   
   .edu-name{

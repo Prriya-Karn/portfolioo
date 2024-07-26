@@ -57,6 +57,7 @@ background: linear-gradient(45deg,rgba(0, 45, 80, 0.8),rgba(0, 45, 80, 0.8) 40%,
 @media(width<=320px){
 .heroButton{
 margin-top:10vw;
+    font-size: 12vw !important;
     width:130vw !important;
 }
 }

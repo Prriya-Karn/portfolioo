@@ -1010,17 +1010,21 @@ font-size:8vw !important;
 
 
 @media(width<=320px){
+.mob-pro-head{
+margin-left:55vw;
+}
          .project-container{
 height:200vh;
 width:200vw;
-  margin-left:75vw;
+  margin-left:50vw !important;
   margin-bottom:20rem;
-  margin-top:-10vw;
+  margin-top:20vw;
 }
 
 
   .edu-border{
-  margin-left:80vw;
+  margin-left:35vw;
+  max-width:50vw !important;
   }
 
 

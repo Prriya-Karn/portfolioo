@@ -336,8 +336,8 @@ color:${({theme})=>theme.colors.buttonBackColor};
   
   .footImg1 img{
   background-color:${({theme})=>theme.colors.buttonBackColor};
-  height:10vh;
-  max-width:20vw;
+  height:15vh;
+  max-width:30vw;
   padding:1rem;
   border-radius:50%;
   

@@ -481,7 +481,6 @@ max-width:500vw !important;
  
 .hero-container{
 grid-template-columns:1fr;
-
 }
 .about-image{
 margin-top:30vw;
@@ -493,22 +492,23 @@ display:grid;
   grid-template-columns : repeat(2,1fr);
 }
 .about-image-right{
-  margin-left:-90vw;
+  margin-left:-87vw;
   width:200vw;
   margin-top:2vw;
   height:60vh;
   }
   
 .about-image-right p{
-  font-size:10vw;
+  font-size:13vw;
   line-height:10vh;
   }
-     .about-image-left{
-     width:300vw;
-     }
+        .about-image-left{
+ 
+max-width:500vw !important;
+   }
     .about-image-left img{
-    min-height: 50vh !important;
-  width:100vw;
+    height: 60vh !important;
+   width:100vw !important;
     margin-top:1vw;
      }
     
