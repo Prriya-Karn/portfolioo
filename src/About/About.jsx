@@ -413,7 +413,7 @@ display:grid;
   grid-template-columns : repeat(2,1fr);
 }
 .about-image-right{
-  margin-left:-120vw;
+  margin-left:-110vw;
   width:200vw;
   margin-top:1vw;
   height:60vh;
@@ -423,31 +423,42 @@ display:grid;
   font-size:12vw;
   line-height:12vh;
   }
+
+   .about-image-left{
+ 
+max-width:500vw !important;
+   }
     .about-image-left img{
-    min-height: 40vh !important;
-    max-width:900vw !important;
+    height: 60vh !important;
+   width:80vw !important;
     margin-top:1vw;
      }
     
   .profile{
+  background-color:red;
   margin-bottom:1vw;
   margin-top:10vw;
-  max-width:200vw;
-  height:100vh;
+  max-width:600vw;
+  height:120vh;
   display:grid;
   line-height:12vh;
     grid-template-columns : repeat(2,1fr);
   }
-  
+  .pro-right .pro-para-right{
+  width:150vw;
+  height:15vh; 
+  } 
   .pro-left .pro-para-left{
-  width:50vw;
-  font-size:8vw;
+  width:80vw;
+  height:15vh;
+  font-size:12vw;
   }
   
   .about-data{
   order:1;
   padding-left:10rem;
-  width:500vw;
+  width:800vw;
+  height:200vh;
   margin-left:-10vw;
   margin-bottom:10vw;
   }
@@ -459,11 +470,11 @@ display:grid;
   }
    .about-border{
    max-width:30vw;
-     margin-bottom:5vw;  
+     margin-bottom:12vw;  
    }
   .about-data p{
-  max-width:200vw;
-  font-size:8vw;
+  max-width:600vw;
+  font-size:12vw;
   margin-bottom:2vw;
   }
 }
