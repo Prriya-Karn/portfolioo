@@ -201,6 +201,7 @@ margin-bottom:1.5rem;
 
 
  @media(width<=1220px){
+
  section{
 padding:9rem 0;
 margin-bottom : 70vw;
@@ -348,7 +349,6 @@ line-height:10vh;
    }
 }
    @media(width<=500px){
-   
 .about-image-right p{
 font-size:5vw;
 line-height:8vh;
@@ -413,15 +413,15 @@ display:grid;
   grid-template-columns : repeat(2,1fr);
 }
 .about-image-right{
-  margin-left:-150vw;
+  margin-left:-120vw;
   width:200vw;
   margin-top:1vw;
   height:60vh;
   }
   
 .about-image-right p{
-  font-size:7vw;
-  line-height:10vh;
+  font-size:12vw;
+  line-height:12vh;
   }
     .about-image-left img{
     min-height: 40vh !important;
