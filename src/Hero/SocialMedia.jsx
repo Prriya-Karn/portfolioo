@@ -79,6 +79,30 @@ display:flex;
 justify-content:center;
 align-items:center;
 }
+
+
+
+@media(width<=320px){
+.social{
+margin-top:10vw;
+  height:20vh;
+}
+.social button{
+    cursor:pointer;
+    margin-left:5vw;
+    max-width:90vw !important;
+    min-height:8vh !important;
+    }
+
+    
+.socialImage{
+max-width:20vw !important;
+height:7vh !important;
+}
+
+}
+
+}
 @media(width<=400px){
 .social{
 margin-top:10vw;

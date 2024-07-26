@@ -124,7 +124,7 @@ display:grid;
     width:300vw !important;
     min-height:70vh;
     padding:3vw;
-   
+  
     }
     
     .hero-image{
@@ -132,7 +132,7 @@ display:grid;
             width: 200vw !important;
             margin-top: -50vw;
             margin-left:1vw !important;
-            margin-bottom: 20vw;
+            margin-bottom: 90vw;
             position: relative;
     }
     
