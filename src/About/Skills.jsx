@@ -471,7 +471,7 @@ line-height:2vh;
 }
 .skills-section{
     width:200vw;
-    margin-top:-10vw;
+    margin-top:30vw;
     margin-left:10vw;
 
     }
@@ -487,10 +487,10 @@ line-height:2vh;
     .skill-bar{
     margin-top:8vw;
    max-width:300vw !important;
-    line-height:12vh;
+    line-height:16vh;
     }
     .skill p{
-    font-size:8vw !important;
+    font-size:10vw !important;
     }
     
     

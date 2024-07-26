@@ -158,14 +158,14 @@ display:grid;
 
 .hero-container{
     padding-top:20rem;
-    margin-left:70vw;
+    margin-left:50vw !important;
+    height:150vh;
     width:100%;
     }
     
     
     .hero-data{
     margin-right:-30vw;
-
     width:80vw;
     min-height:70vh;
     padding:3vw;
@@ -173,9 +173,9 @@ display:grid;
     }
     
     .hero-image{
-    
+
     min-height:30vh;
-    width:100vw;
+    width:200vw !important;
     margin-left:-30vw;
     padding-left: revert-layer;
     position:relative;
@@ -184,19 +184,21 @@ display:grid;
     .hero-image img{
     postition:absolute;
         margin-left:5rem;
-        width:90vw;
+        width:150vw !important;
         }
     
     .hero-data h5{
+    
         color:${({ theme }) => theme.colors.grey};
-        font-size:7vw;
+        font-size:10vw !important;
         }
         
         
         .hero-data h1{
-        font-size:12vw;
+        font-size:18vw !important;
         }
     
+      
 
 }
 

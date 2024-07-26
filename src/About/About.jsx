@@ -401,10 +401,10 @@ margin-bottom:2vw;
 @media(width<=400px){
 .hero-container{
 grid-template-columns:1fr;
-
+    margin-left:-20vw !important;
 }
 .about-image{
-margin-top:30vw;
+margin-top:50vw;
 margin-bottom:40vw;
   order:2;
 height:90vh;
@@ -435,9 +435,8 @@ max-width:500vw !important;
      }
     
   .profile{
-  background-color:red;
-  margin-bottom:1vw;
-  margin-top:10vw;
+  margin-bottom:8vw;
+  margin-top:15vw;
   max-width:600vw;
   height:120vh;
   display:grid;

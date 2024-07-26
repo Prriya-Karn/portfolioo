@@ -89,6 +89,49 @@ display:none;
 
 
 
+@media(width<=400px){
+.logo{
+color : ${({ theme }) => theme.colors.logoColor};
+font-size : ${({ theme }) => theme.fontSize.logoSize};
+padding-left:20rem;
+}
+
+.logoNavlink{
+text-decoration:none;
+position:relative;
+}
+
+.head{
+height:auto;
+display:grid;
+  grid-template-columns : repeat(2,1fr);
+justify-content:space-between;
+align-items:center;
+margin-bottom:5rem;
+position:relative;
+max-width:100%;
+} 
+
+
+.blob-head{
+position:absolute;
+top:-2rem;
+left:10rem;
+width:15rem;
+overflow:hidden;
+z-index:-1;
+}
+
+.mob-ham-close{
+display:none;
+}
+
+.hamburger,.close{
+
+}
+
+
+}
 
 
 

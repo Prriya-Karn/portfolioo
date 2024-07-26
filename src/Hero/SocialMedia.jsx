@@ -80,18 +80,21 @@ justify-content:center;
 align-items:center;
 }
 @media(width<=400px){
-
+.social{
+margin-top:10vw;
+  height:20vh;
+}
 .social button{
     cursor:pointer;
     margin-left:5vw;
-    width:20vw !important;
-    height:8vh !important;
+    max-width:90vw !important;
+    min-height:10vh !important;
     }
 
     
 .socialImage{
-width:30% !important;
-height:5vh !important;
+max-width:50vw !important;
+height:10vh !important;
 }
 
 }
