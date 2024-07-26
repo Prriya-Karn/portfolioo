@@ -152,21 +152,21 @@ left:25rem;
 .blob-con-1{
 position:relative;
 max-width:50vw;
-left:-20vw;
+left:-6vw;
 top:-18vw;
 z-index:-1;
 }
 
 .contact-container{
-height:200vh;
-width:160vw;
+height:400vh;
+width:300vw;
 margin-top:80vw;
 margin-bottom:30vw;
-margin-left:110vw;
+margin-left:40vw;
 }
 
 .contact-form{
-margin-left:1vw;
+margin-left:25vw;
 margin-top:-50vw;
 max-width:500vw;
 height:100vh;
@@ -176,26 +176,27 @@ height:100vh;
 gap:2rem;
 }
 .edu-border{
-margin-left:65vw;
+margin-left:110vw;
 }
 
 
 
 .contact-form input{
-font-size:4vw;
-height:20vh;
+font-size:5vw;
+height:25vh;
 margin-bottom:2rem;
 padding:0 0 0 5vw;
 }
 .input-contact{
+width:250vw;
 display:flex;
 flex-direction:column;
 margin-bottom:2rem;
 }
 
 .textarea{
-font-size:4vw;
-height:70vh;
+font-size:5vw;
+height:100vh;
 padding:2vw 0 0 5vw;
 margin-top:-50vw;
 }
@@ -208,39 +209,26 @@ top:1vw;
 left:120vw;
 }
 }
- @media(width<=800px){}
- @media(width<=998px){}
- @media(width<=768px){}
- @media(width<=600px){
+ @media(width<=800px){
  
-.contact-form input{
-font-size:7vw;
-
-}
-.textarea{
-font-size:7vw;
-}
- }
-    @media(width<=500px){
-  
 .blob-con-1{
 position:relative;
 max-width:50vw;
-left:-20vw;
+left:-6vw;
 top:-18vw;
 z-index:-1;
 }
 
 .contact-container{
-height:200vh;
-width:160vw;
-margin-top:40vw;
+height:400vh;
+width:300vw;
+margin-top:80vw;
 margin-bottom:30vw;
-margin-left:110vw;
+margin-left:40vw;
 }
 
 .contact-form{
-margin-left:1vw;
+margin-left:25vw;
 margin-top:-50vw;
 max-width:500vw;
 height:100vh;
@@ -250,25 +238,27 @@ height:100vh;
 gap:2rem;
 }
 .edu-border{
-margin-left:65vw;
+margin-left:110vw;
 }
 
+
+
 .contact-form input{
-font-size:7vw;
-width:78vw;
-height:20vh;
+font-size:7vw !important;
+height:25vh;
 margin-bottom:2rem;
 padding:0 0 0 5vw;
 }
 .input-contact{
+width:250vw;
 display:flex;
 flex-direction:column;
 margin-bottom:2rem;
 }
 
 .textarea{
-font-size:7vw;
-height:70vh;
+font-size:7vw !important;
+height:100vh;
 padding:2vw 0 0 5vw;
 margin-top:-50vw;
 }
@@ -279,119 +269,247 @@ width:50vw;
 z-index:-1;
 top:1vw;
 left:120vw;
+}
+ 
+ }
+ @media(width<=998px){
+ 
+.blob-con-1{
+position:relative;
+max-width:50vw;
+left:10vw;
+top:-18vw;
+z-index:-1;
+}
+
+.contact-container{
+
+width:300vw;
+height:400vh;
+width:300vw;
+margin-top:80vw;
+margin-bottom:30vw;
+margin-left:40vw;
+}
+
+.contact-form{
+
+margin-left:35vw;
+margin-top:-50vw;
+max-width:500vw;
+height:100vh;
+}
+
+.cont-inp{
+gap:2rem;
+}
+.edu-border{
+margin-left:110vw;
+}
+
+
+
+.contact-form input{
+
+font-size:6vw;
+height:25vh;
+margin-bottom:2rem;
+padding:0 0 0 5vw;
+}
+.input-contact{
+
+width:250vw;
+display:flex;
+flex-direction:column;
+margin-bottom:2rem;
+}
+
+.textarea{
+font-size:6vw;
+height:100vh;
+padding:2vw 0 0 5vw;
+margin-top:-50vw;
+}
+
+.blob-con-2{
+position:relative;
+width:50vw;
+z-index:-1;
+top:1vw;
+left:120vw;
+}
+ 
+ }
+ @media(width<=768px){
+ 
+.blob-con-1{
+position:relative;
+max-width:60vw;
+left:10vw;
+top:-18vw;
+z-index:-1;
+}
+
+.contact-container{
+height:400vh;
+width:300vw;
+margin-top:80vw;
+margin-bottom:30vw;
+margin-left:40vw;
+}
+
+.contact-form{
+margin-left:38vw;
+margin-top:-50vw;
+max-width:500vw;
+height:100vh;
+}
+
+.cont-inp{
+gap:2rem;
+}
+.edu-border{
+margin-left:110vw;
+}
+
+
+
+.contact-form input{
+font-size:8vw !important;
+height:25vh;
+margin-bottom:2rem;
+padding:0 0 0 5vw;
+}
+.input-contact{
+width:250vw;
+display:flex;
+flex-direction:column;
+margin-bottom:2rem;
+}
+
+.textarea{
+font-size:8vw !important;
+height:100vh;
+padding:2vw 0 0 5vw;
+margin-top:-50vw;
+}
+
+.blob-con-2{
+position:relative;
+width:50vw;
+z-index:-1;
+top:1vw;
+left:120vw;
+}
+ }
+ @media(width<=600px){
+ 
+.contact-form input{
+font-size:9vw !important;
+}
+
+
+.contact-container{
+  height:400vh;
+  width:300vw;
+  margin-top:150vw !important;
+  margin-bottom:30vw;
+  margin-left:40vw;
+  }
+
+.textarea{
+font-size:9vw !important;
+}
+ }
+    @media(width<=500px){
+ 
+.contact-form input{
+font-size:10vw !important;
+}
+
+
+.contact-container{
+  height:400vh;
+  width:300vw;
+  margin-top:150vw !important;
+  margin-bottom:-20vw !important;
+  margin-left:40vw;
+  }
+
+.textarea{
+font-size:10vw !important;
 }
     }
 
 
      @media(width<=400px){
-     
-.blob-con-1{
-position:relative;
-max-width:80vw;
-left:-20vw;
-top:-18vw;
-z-index:-1;
+  
+.contact-form input{
+font-size:10vw !important;
 }
+
 
 .contact-container{
-height:200vh;
-width:260vw;
-margin-top:-60vw;
-margin-left:68vw;
+  height:300vh;
+  width:300vw;
+  margin-top:150vw !important;
+  margin-bottom:-50vw !important;
+  margin-left:40vw;
+  }
+
+.textarea{
+font-size:10vw !important;
+height:60vh;
+}
+     }
+     @media(width<=370px){
+  
+.contact-form input{
+font-size:12vw !important;
+width:122vw;
 }
 
-.contact-form{
-margin-left:5vw;
-margin-top:-70vw;
-max-width:400vw;
-height:100vh;
-}
 
-.cont-inp{
-gap:2rem;
+.contact-container{
+  height:300vh;
+  width:300vw;
+  margin-top:150vw !important;
+  margin-bottom:-50vw !important;
+  margin-left:40vw;
+  }
+
+.textarea{
+font-size:12vw !important;
+height:60vh;
+}
+     }
+
+@media(width<=320px){
+  
+.contact-form input{
+font-size:14vw !important;
+width:122vw;
 }
 .edu-border{
 margin-left:90vw;
-max-width:40vw;
+max-width:70vw;
 }
 
 
-
-.contact-form input{
-font-size:8vw;
-width:125vw;
-height:20vh;
-margin-bottom:2rem;
-padding:0 0 0 5vw;
-}
-.input-contact{
-display:flex;
-flex-direction:column;
-margin-bottom:2rem;
-}
+.contact-container{
+  height:200vh;
+  width:300vw;
+  margin-top:60vw !important;
+  margin-bottom:-50vw !important;
+  margin-left:40vw;
+  }
 
 .textarea{
-font-size:8vw;
-height:70vh;
-padding:2vw 0 0 5vw;
-margin-top:-80vw;
+font-size:14vw !important;
+height:60vh;
 }
 
-.blob-con-2{
-position:relative;
-width:80vw;
-z-index:-1;
-top:1vw;
-left:120vw;
 }
-     }
-     @media(width<=320px){
-     .contact-container{
-height:200vh;
-width:260vw;
-margin-top:-180vw;
-margin-left:60vw;
-}
-
-.contact-form{
-margin-left:5vw;
-margin-top:-70vw;
-max-width:400vw;
-height:100vh;
-}
-
-.cont-inp{
-gap:2rem;
-}
-.edu-border{
-margin-left:100vw;
-max-width:40vw;
-}
-
-
-
-.contact-form input{
-font-size:8vw;
-height:16vh;
-margin-bottom:2rem;
-padding:0 0 0 5vw;
-}
-.input-contact{
-display:flex;
-flex-direction:column;
-margin-bottom:2rem;
-}
-
-.textarea{
-font-size:8vw;
-height:50vh;
-padding:2vw 0 0 5vw;
-margin-top:-80vw;
-}
-     
-     }
-
-
 
 
 

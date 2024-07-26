@@ -83,42 +83,51 @@ align-items:center;
 
 
 @media(width<=320px){
+
 .social{
-margin-top:10vw;
-  height:20vh;
+    display:flex;
+    margin-left:-1rem;
+    margin-bottom:2rem;
+    }
+    
+    .socialImage{
+    
+    border-radius:50%;
+    max-width:6rem;
+    width:2rem;
+    height:2rem;
+    margin:1rem;
+    }
+    .social button{
+    cursor:pointer;
+    margin-left:1rem;
+    border : 2px solid ${({theme})=>theme.colors.buttonBackColor};
+    border-radius:50%;
+    width:4vw !important;
+    height:15vh!important;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    }
+    
+
+}
+@media(width<=800px){
+.social{
+
+height:20vh !important;
+margin-left:-5vw;
+margin-bottom:6vw;
+}
+
+.socialImage{
+width:60% !important;
+height:10vh;
 }
 .social button{
-    cursor:pointer;
-    margin-left:5vw;
-    max-width:90vw !important;
-    min-height:8vh !important;
-    }
-
-    
-.socialImage{
-max-width:20vw !important;
-height:7vh !important;
-}
-
-}
-
-}
-@media(width<=400px){
-.social{
-margin-top:10vw;
-  height:20vh;
-}
-.social button{
-    cursor:pointer;
-    margin-left:5vw;
-    max-width:90vw !important;
-    min-height:10vh !important;
-    }
-
-    
-.socialImage{
-max-width:50vw !important;
-height:10vh !important;
+margin-left:5vw;
+max-width:60% !important;
+height:16vh !important;
 }
 
 }
@@ -176,8 +185,8 @@ margin-bottom:6vw;
 
 .socialImage{
 border-radius:50%;
-width:30% !important;
-height:7vh !important;
+width:50% !important;
+height:9vh !important;
 }
 .social button{
 cursor:pointer;
@@ -214,7 +223,8 @@ justify-content:center;
 align-items:center;
 }
 }
-@media(width<=1220px){
+
+@media(width<=370px){
 .social{
 margin-left:-5vw;
 margin-bottom:6vw;
@@ -222,20 +232,47 @@ margin-bottom:6vw;
 
 .socialImage{
 border-radius:50%;
-width:48%;
-height:7vh;
+width:30%;
+height:8vh !important;
 }
 .social button{
 cursor:pointer;
 margin-left:5vw;
 border : 2px solid ${({theme})=>theme.colors.buttonBackColor};
 border-radius:50%;
-width:8vw;
-height:15vh;
+width:13% !important;
+height:17vh !important;
 display:flex;
 justify-content:center;
 align-items:center;
 }
+}
+
+@media(width<=1220px){
+.social{
+height:14vh;
+margin-left:-5vw;
+margin-bottom:6vw;
+}
+
+.social button{
+cursor:pointer;
+margin-left:5vw;
+border : 2px solid ${({theme})=>theme.colors.buttonBackColor};
+border-radius:50%;
+width:10vw;
+height:20vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+.socialImage{
+border-radius:50%;
+width:50%;
+height:10vh;
+}
+
+
 }
 
 

@@ -15,7 +15,7 @@ const Education=()=>{
         <div className="diploma">
         <div className="content">
         <h1 className="edu-year">2019-2022</h1>
-        <h1>Diploma In IT</h1>
+        <h1>Diploma In Information Technology</h1>
         <p className="edu-name">Ambedkar Institute Of Technology</p>
         <p className="cg">CGPA: 8</p>
         </div>
@@ -141,26 +141,27 @@ margin-top:1rem;
 
 @media(width<=1220px){
 .edu-container{
-
-width:200vw;
-  margin-top:50vw;
-  margin-left:90vw;
-  min-height:100vh;
+width:300vw;
+  margin-top:8vw;
+  margin-left:40vw;
+ height:200vh;
   }
   .edu-head{
 
-  font-size:10vw;
+font-size:13vw;
   text-align:center;
   }
   .edu-border{
   margin-top:1rem;
-  margin-left:75vw;
+  margin-left:120vw;
   margin-bottom:10vw;
   max-width:30vw;
+  height:2vh;
   }
   
   .main-edu-card{
-  width:200vw;
+  width:300vw;
+  margin-left:20vw;
   display:grid;
   grid-template-columns:repeat(2,1fr);
   height:15rem;
@@ -168,8 +169,8 @@ width:200vw;
   }
     .diploma{
 
-  max-width:90vw;
-  height:60vh;
+  max-width:120vw;
+  height:90vh;
   margin-left:7vw;
   border-radius:1rem;
   }
@@ -177,118 +178,25 @@ width:200vw;
   .btech{
   background-color:${({theme})=>theme.colors.eduboxColor};
   border-radius:1rem;
- max-width:90vw;
-  height:60vh;
-  }
-
-
-  .blob-edu{
-  position:absolute;
-  top:-14vw;
-  left:-15vw;
-  z-index:-1;
-  width:70vw;
-  }
-      
-  .blob-edu-1{
-  position:absolute;
-  top:-12vw;
-  left:150vw;
-  z-index:-1;
-  width:70vw;
-  
-  
-  }
-
-  
-  .main-edu-card h1{
-  font-size: 4vw;
-  }
-  
-  .content{
-  padding-left:8vw;
-  padding-top:4vw;
-  }
-  
-  .main-edu-card p{
-  font-size : 2vw;
-  }
-  
-  .edu-name{
-  margin-top:1rem;
-  }
-  .cg{
-  margin-top:1rem;
-  }
-  
-}
- @media(width<=800px){}
- @media(width<=998px){
-.edu-container{
-width:200vw;
-  margin-top:-10vw;  
-  margin-left:90vw;
-  min-height:100vh;
-  }
- }
- 
-@media(width<=768px){}
-
-
-@media(width<=600px){
-.edu-container{
-width:200vw;
- margin-top:-30vw;    
-  margin-left:90vw;
-  min-height:100vh;
-  }
-  .edu-head{
-
-  font-size:10vw;
-  text-align:center;
-  }
-  .edu-border{
-  margin-top:1rem;
-  margin-left:77vw;
-  margin-bottom:10vw;
-  max-width:30vw;
-  }
-  
-  .main-edu-card{
-  width:200vw;
-  display:grid;
-  grid-template-columns:repeat(2,1fr);
-  height:15rem;
-  position:relative;
-  }
-    .diploma{
-
-  max-width:100vw;
-  height:50vh;
-  margin-left:-1vw;
-  border-radius:1rem;
-  }
-  .btech{
-    height:50vh;
-  background-color:${({theme})=>theme.colors.eduboxColor};
-  border-radius:1rem;
   max-width:120vw;
-  margin-left:10vw;
+  height:90vh;
   }
+
+
   .blob-edu{
   position:absolute;
-  top:-30vw;
-  left:-40vw;
+  top:-20vw;
+  left:-30vw;
   z-index:-1;
-  width:90vw;
+  width:70vw;
   }
       
   .blob-edu-1{
   position:absolute;
-  top:-16vw;
-  left:150vw;
+  top:-9vw;
+  left:230vw;
   z-index:-1;
-  width:100vw;
+  width:80vw;
   
   
   }
@@ -304,7 +212,7 @@ width:200vw;
   }
   
   .main-edu-card p{
-  font-size : 3vw;
+  font-size : 3.6vw;
   }
   
   .edu-name{
@@ -315,84 +223,427 @@ width:200vw;
   }
   
 }
-
-   @media(width<=500px){
-    .btech{
-  background-color:${({theme})=>theme.colors.eduboxColor};
-  border-radius:1rem;
-  width:95vw;
-  margin-left:10vw;
-  }
-   }
-   @media(width<=400px){
-   .edu-container{
-width:300vw;
-    margin-left:50vw !important;
- margin-top:500vw !important;    
-  margin-left:80vw;
-  min-height:100vh;
+ @media(width<=800px){
+ .edu-container{
+width:300vw !important;
+  margin-top:8vw;
+  margin-left:40vw;
+ height:150vh;
   }
   .edu-head{
-  font-size:18vw;
+
+font-size:13vw;
   text-align:center;
   }
   .edu-border{
   margin-top:1rem;
-  margin-left:110vw;
-  margin-bottom:18vw;
-  max-width:50vw;
+  margin-left:120vw;
+  margin-bottom:10vw;
+  max-width:30vw;
+  height:2vh;
   }
   
   .main-edu-card{
   width:300vw;
+  margin-left:20vw;
   display:grid;
   grid-template-columns:repeat(2,1fr);
-  height:50vh;
+  height:15rem;
   position:relative;
   }
     .diploma{
-max-width:130vw !important;
-  height:50vh;
-  margin-left:-1vw;
+
+  max-width:130vw;
+  height:90vh;
+  margin-left:7vw;
   border-radius:1rem;
   }
+
   .btech{
   background-color:${({theme})=>theme.colors.eduboxColor};
   border-radius:1rem;
-width:130vw !important;
-  height:50vh;
-  margin-left:10vw;
+  max-width:130vw;
+  height:90vh;
   }
+
+
   .blob-edu{
   position:absolute;
-  top:-30vw;
-  left:-50vw;
+  top:-20vw;
+  left:-30vw;
   z-index:-1;
-  width:120vw;
+  width:70vw;
   }
       
   .blob-edu-1{
   position:absolute;
-  top:-16vw;
-  left:205vw;
+  top:-9vw;
+  left:230vw;
   z-index:-1;
-  width:150vw;
+  width:80vw;
   
   
   }
 
   
   .main-edu-card h1{
-  font-size: 9vw;
+  width:130vw;
+  font-size: 8vw;
   }
   
   .content{
   padding-left:8vw;
-  padding-top:10vw;
+  padding-top:4vw;
   }
   
   .main-edu-card p{
-  font-size : 5vw;
+  font-size : 4vw;
+  }
+  
+  .edu-name{
+  margin-top:1rem;
+  }
+  .cg{
+  margin-top:1rem;
+  }
+ 
+ }
+ @media(width<=998px){
+.edu-container{
+width:300vw;
+  margin-top:-10vw;  
+  margin-left:40vw;
+  min-height:100vh;
+  }
+ }
+ 
+@media(width<=768px){
+ .edu-container{
+width:300vw !important;
+  margin-top:8vw;
+  margin-left:40vw;
+ height:150vh;
+  }
+  .edu-head{
+
+font-size:13vw;
+  text-align:center;
+  }
+  .edu-border{
+  margin-top:1rem;
+  margin-left:120vw;
+  margin-bottom:10vw;
+  max-width:30vw;
+  height:2vh;
+  }
+  
+  .main-edu-card{
+  width:300vw;
+  margin-left:20vw;
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  height:15rem;
+  position:relative;
+  }
+    .diploma{
+
+  max-width:130vw;
+  height:90vh;
+  margin-left:7vw;
+  border-radius:1rem;
+  }
+
+  .btech{
+  background-color:${({theme})=>theme.colors.eduboxColor};
+  border-radius:1rem;
+  max-width:130vw;
+  height:90vh;
+  }
+
+
+  .blob-edu{
+  position:absolute;
+  top:-20vw;
+  left:-30vw;
+  z-index:-1;
+  width:70vw;
+  }
+      
+  .blob-edu-1{
+  position:absolute;
+  top:2vw;
+  left:240vw;
+  z-index:-1;
+  width:100vw;
+  
+  
+  }
+
+  
+  .main-edu-card h1{
+  width:130vw;
+  font-size: 8vw;
+  }
+  
+  .content{
+  padding-left:8vw;
+  padding-top:4vw;
+  }
+  
+  .main-edu-card p{
+  font-size : 4vw;
+  }
+  
+  .edu-name{
+  margin-top:1rem;
+  }
+  .cg{
+  margin-top:1rem;
+  }
+}
+
+
+@media(width<=600px){
+.edu-container{
+width:300vw !important;
+  margin-top:380vw !important;
+  margin-left:40vw;
+ height:150vh;
+  }
+  .edu-head{
+       font-size:18vw;
+  }
+  .edu-border{
+  margin-top:1rem;
+  margin-left:110vw;
+  margin-bottom:10vw;
+  max-width:50vw;
+  height:2vh;
+  }
+  
+  .main-edu-card{
+  width:300vw;
+  margin-left:8vw;
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  height:15rem;
+  position:relative;
+  }
+    .diploma{
+
+  max-width:170vw;
+  height:90vh;
+  margin-left:-10vw;
+  border-radius:1rem;
+  }
+
+  .btech{
+  background-color:${({theme})=>theme.colors.eduboxColor};
+  border-radius:1rem;
+  max-width:170vw;
+  height:90vh;
+  }
+
+
+  .blob-edu{
+  position:absolute;
+  top:-30vw;
+  left:-50vw;
+  z-index:-1;
+  width:90vw;
+  }
+      
+  .blob-edu-1{
+  position:absolute;
+  top:-10vw;
+  left:220vw;
+  z-index:-1;
+  width:160vw;
+  
+  
+  }
+
+  
+  .main-edu-card h1{
+  width:150vw;
+
+  font-size: 11vw;
+  }
+  
+  .content{
+  padding-left:8vw;
+  padding-top:4vw;
+  }
+  
+  .main-edu-card p{
+  font-size : 6vw;
+  }
+  
+  .edu-name{
+  margin-top:1rem;
+  }
+  .cg{
+  margin-top:1rem;
+  }
+}
+
+   @media(width<=500px){
+   .edu-container{
+width:300vw !important;
+  margin-top:380vw !important;
+  margin-left:40vw;
+ height:150vh;
+  }
+  .edu-head{
+       font-size:18vw;
+  }
+  .edu-border{
+  margin-top:1rem;
+  margin-left:110vw;
+  margin-bottom:10vw;
+  max-width:50vw;
+  height:2vh;
+  }
+  
+  .main-edu-card{
+  width:300vw;
+  margin-left:8vw;
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  height:15rem;
+  position:relative;
+  }
+    .diploma{
+
+  max-width:170vw;
+  height:90vh;
+  margin-left:-10vw;
+  border-radius:1rem;
+  }
+
+  .btech{
+  background-color:${({theme})=>theme.colors.eduboxColor};
+  border-radius:1rem;
+  max-width:170vw;
+  height:90vh;
+  }
+
+
+  .blob-edu{
+  position:absolute;
+  top:-30vw;
+  left:-50vw;
+  z-index:-1;
+  width:90vw;
+  }
+      
+  .blob-edu-1{
+  position:absolute;
+  top:-10vw;
+  left:220vw;
+  z-index:-1;
+  width:160vw;
+  
+  
+  }
+
+  
+  .main-edu-card h1{
+  width:160vw;
+
+  font-size: 12vw;
+  }
+  
+  .content{
+  padding-left:8vw;
+  padding-top:4vw;
+  }
+  
+  .main-edu-card p{
+  font-size : 7vw;
+  }
+  
+  .edu-name{
+  margin-top:1rem;
+  }
+  .cg{
+  margin-top:1rem;
+  }
+
+   }
+   @media(width<=400px){
+  .edu-container{
+width:300vw !important;
+  margin-top:380vw !important;
+  margin-left:40vw;
+ height:150vh;
+  }
+  .edu-head{
+       font-size:18vw;
+  }
+  .edu-border{
+  margin-top:1rem;
+  margin-left:110vw;
+  margin-bottom:10vw;
+  max-width:50vw;
+  height:2vh;
+  }
+  
+  .main-edu-card{
+  width:300vw;
+  margin-left:8vw;
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  height:15rem;
+  position:relative;
+  }
+    .diploma{
+  max-width:170vw;
+  height:90vh;
+  margin-left:-10vw;
+  border-radius:1rem;
+  }
+
+  .btech{
+  background-color:${({theme})=>theme.colors.eduboxColor};
+  border-radius:1rem;
+  max-width:170vw;
+  height:90vh;
+  }
+
+
+  .blob-edu{
+  position:absolute;
+  top:-30vw;
+  left:-50vw;
+  z-index:-1;
+  width:90vw;
+  }
+      
+  .blob-edu-1{
+  position:absolute;
+  top:-10vw;
+  left:220vw;
+  z-index:-1;
+  width:160vw;
+  
+  
+  }
+
+  
+  .main-edu-card h1{
+  width:160vw;
+  font-size: 13vw;
+  }
+  
+  .content{
+  padding-left:8vw;
+  padding-top:4vw;
+  }
+  
+  .main-edu-card p{
+  width:160vw;
+  font-size : 9vw;
   }
   
   .edu-name{
@@ -403,74 +654,78 @@ width:130vw !important;
   }
    }
    @media(width<=320px){
-     .edu-container{
-     
-width:300vw;
- margin-top:550vw !important;    
-    margin-left:50vw !important;
-  min-height:100vh;
+    .edu-container{
+width:300vw !important;
+  margin-top:380vw !important;
+  margin-left:40vw;
+ height:150vh;
   }
   .edu-head{
-  font-size:18vw;
-  text-align:center;
+       font-size:18vw;
   }
   .edu-border{
   margin-top:1rem;
-  margin-left:110vw;
-  margin-bottom:18vw;
-  max-width:50vw;
+  margin-left:90vw;
+  margin-bottom:10vw;
+  max-width:60vw;
+  height:2vh;
   }
   
   .main-edu-card{
-   width:500vw;
+  width:300vw;
+  margin-left:8vw;
   display:grid;
   grid-template-columns:repeat(2,1fr);
   height:15rem;
   position:relative;
   }
-     .diploma{
-max-width:140vw !important;
-  height:40vh;
-  margin-left:-1vw;
+    .diploma{
+  max-width:170vw;
+  height:60vh;
+  margin-left:-10vw;
   border-radius:1rem;
   }
+
   .btech{
   background-color:${({theme})=>theme.colors.eduboxColor};
   border-radius:1rem;
-max-width:140vw !important;
-  height:40vh;
-  margin-left:-90vw;
+  max-width:170vw;
+  height:60vh;
   }
+
+
   .blob-edu{
   position:absolute;
   top:-30vw;
   left:-50vw;
   z-index:-1;
-  width:120vw;
+  width:90vw;
   }
       
   .blob-edu-1{
   position:absolute;
-  top:-16vw;
-  left:230vw;
+  top:6vw;
+  left:250vw;
   z-index:-1;
-  width:120vw;
+  width:160vw;
   
   
   }
 
   
   .main-edu-card h1{
-  font-size: 8vw;
+  width:160vw;
+  font-size: 13vw;
   }
   
   .content{
   padding-left:8vw;
-  padding-top:10vw;
+  padding-top:4vw;
   }
   
   .main-edu-card p{
-  font-size : 5vw;
+  width:160vw;
+  font-size : 7vw;
   }
   
   .edu-name{

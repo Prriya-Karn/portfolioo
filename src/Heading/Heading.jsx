@@ -15,7 +15,7 @@ const HeadWrap = styled.h1`
 
 @media(width<=1220px){
 .edu-head{
-font-size:10vw;
+font-size:13vw;
 }
 
   .edu-border{
@@ -23,6 +23,7 @@ font-size:10vw;
   margin-left:80vw;
   margin-bottom:10vw;
   max-width:30vw;
+  height:2vh;
   }
 }
     @media(width<=400px){
@@ -41,8 +42,21 @@ font-size:15vw;
 
     
   @media(width<=320px){
+     .edu-head{
+font-size:25vw !important;
+}
+
+  .edu-border{
+  margin-top:1rem;
+  margin-left:80vw;
+  margin-bottom:10vw;
+  max-width:30vw;
+  }
+  }
+
+  @media(width<=600px){
   .edu-head{
-font-size:20vw;
+     font-size:18vw;
 }
 
   .edu-border{
@@ -53,6 +67,9 @@ font-size:20vw;
   }
   
   }
-`
+
+
+  `
+
 
 export default Heading;

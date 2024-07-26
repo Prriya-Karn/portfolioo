@@ -124,7 +124,6 @@ display:grid;
     width:300vw !important;
     min-height:70vh;
     padding:3vw;
-  
     }
     
     .hero-image{
@@ -132,7 +131,7 @@ display:grid;
             width: 200vw !important;
             margin-top: -50vw;
             margin-left:1vw !important;
-            margin-bottom: 90vw;
+            margin-bottom: 120vw;
             position: relative;
     }
     
@@ -142,17 +141,17 @@ display:grid;
         }
     
     .hero-data h5{
-        color:${({ theme }) => theme.colors.grey};
-        font-size:16vw !important;
+        font-size:30vw !important;
         }
         
         
         .hero-data h1{
-        font-size:26vw !important;
+        font-size:30vw !important;
         }
     
 
 }
+
 
 @media(width<=400px){
 
@@ -202,12 +201,55 @@ display:grid;
 
 }
 
+@media(width<=500px){
+
+.hero-container{
+    padding-top:20rem;
+    margin-left:50vw !important;
+    width:300%;
+    }
+    
+    
+    .hero-data{
+    width:200vw;
+    min-height:70vh;
+    padding:3vw;
+    
+    }
+    
+    .hero-image{
+    min-height:30vh;
+    max-width:500vw;
+    margin-left:-30vw;
+    padding-left: revert-layer;
+    position:relative;
+    }
+    
+    .hero-image img{
+    postition:absolute;
+        margin-left:5rem;
+        width:500vw !important;
+        }
+    
+    .hero-data h5{
+        color:${({ theme }) => theme.colors.grey};
+        font-size:10vw !important;
+        }
+        
+        
+        .hero-data h1{
+        font-size:20vw !important;
+        }
+      
+    
+
+}
+
 @media(width<=600px){
 
 .hero-container{
     padding-top:20rem;
-    margin-left:70vw;
-    
+    margin-left:50vw !important;
     width:300%;
     }
     
@@ -222,7 +264,7 @@ display:grid;
     .hero-image{
     
     min-height:30vh;
-    width:100vw;
+    max-width:200vw;
     margin-left:-30vw;
     padding-left: revert-layer;
     position:relative;
@@ -231,17 +273,17 @@ display:grid;
     .hero-image img{
     postition:absolute;
         margin-left:5rem;
-        width:90vw;
+        width:100vw !important;
         }
     
     .hero-data h5{
         color:${({ theme }) => theme.colors.grey};
-        font-size:7vw;
+        font-size:10vw !important;
         }
         
         
         .hero-data h1{
-        font-size:12vw;
+        font-size:18vw !important;
         }
       
     

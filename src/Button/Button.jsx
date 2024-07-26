@@ -36,32 +36,49 @@ transform : scale(0.9);
 
 
 }
+@media(width<=320px){
+  button{
+  background-color:orange;
+ font-size:20vw !important; 
+}
+}
 
 @media(width<=400px){
+  .heroButton{
+ font-size:15vw !important; 
+}
+}
+
+@media(width<=370px){
 .heroButton{
 outline:none;
 background: linear-gradient(45deg,rgba(0, 45, 80, 0.8),rgba(0, 45, 80, 0.8) 40%, rgba(0, 45, 80, 0.5) 60%, rgba(0, 45, 80, 0.8) 80%,rgba(0, 45, 80, 0.8));
-    font-size: 9vw !important;
+    font-size: 10vw !important;
     padding: 1rem 5rem;
     line-height: 2.5rem;
     color: ${({ theme }) => theme.colors.white};
     cursor: pointer;
     transition: all 0.1s ease;
-    height:15vh !important;
-    width:90vw !important;
-  
+    height:11vh;
+    width:300% !important;
+}
 }
 
-}
-
-@media(width<=320px){
+@media(width<=600px){
 .heroButton{
-margin-top:10vw;
-    font-size: 12vw !important;
-    width:130vw !important;
-}
+outline:none;
+background: linear-gradient(45deg,rgba(0, 45, 80, 0.8),rgba(0, 45, 80, 0.8) 40%, rgba(0, 45, 80, 0.5) 60%, rgba(0, 45, 80, 0.8) 80%,rgba(0, 45, 80, 0.8));
+    font-size: 8vw !important;
+    padding: 1rem 5rem;
+    line-height: 2.5rem;
+    color: ${({ theme }) => theme.colors.white};
+    cursor: pointer;
+    transition: all 0.1s ease;
+    height:11vh;
+    width:300% !important;
 }
 
+}
 
 
 @media(width<=998px){
@@ -85,17 +102,31 @@ background: linear-gradient(45deg,rgba(0, 45, 80, 0.8),rgba(0, 45, 80, 0.8) 40%,
 .heroButton{
 outline:none;
 background: linear-gradient(45deg,rgba(0, 45, 80, 0.8),rgba(0, 45, 80, 0.8) 40%, rgba(0, 45, 80, 0.5) 60%, rgba(0, 45, 80, 0.8) 80%,rgba(0, 45, 80, 0.8));
-    font-size: 3vw;
+    font-size: 4vw;
     padding: 1rem 5rem;
     line-height: 2.5rem;
     color: ${({ theme }) => theme.colors.white};
     cursor: pointer;
     transition: all 0.1s ease;
-    height:10vh;
-    width:900%;
+    height:18vh;
+    width:500vw !important;
 }
 }
+@media(width<=1220px){
+.heroButton{
 
+outline:none;
+background: linear-gradient(45deg,rgba(0, 45, 80, 0.8),rgba(0, 45, 80, 0.8) 40%, rgba(0, 45, 80, 0.5) 60%, rgba(0, 45, 80, 0.8) 80%,rgba(0, 45, 80, 0.8));
+    font-size: 5vw;
+    padding: 1rem 5rem;
+    line-height: 2.5rem;
+    color: ${({ theme }) => theme.colors.white};
+    cursor: pointer;
+    transition: all 0.1s ease;
+    height:18vh;
+    width:500vw !important;
+}
+}
 `;
 
 export default Button;

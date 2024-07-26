@@ -102,10 +102,12 @@ postition:absolute;
 }
 
 @media(width<=600px){
+
 .blob svg{
 postition:absolute;
+margin-top:5vw;
     margin-left:-5vw;
-    width:1000%;
+ width:1000%;
     z-index:-1;
 }
 }
