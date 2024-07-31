@@ -37,11 +37,13 @@ const SocialMedia = ()=>{
             socialImage.map((e)=>{
                 return(
                     <Fragment>
-                    <NavLink exact to = {e.link} target="_Priya">
+                    
                     <button>
+                    <NavLink exact to = {e.link} target="_Priya">
                     <img className="socialImage" src= {e.image}/>
-                    </button>
                     </NavLink>
+                    </button>
+                    
                     </Fragment>
                 )
             })
