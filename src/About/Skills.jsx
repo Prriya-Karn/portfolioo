@@ -76,7 +76,7 @@ const SkillWrapper = styled.div`
  border-radius : 1rem;
  max-width:12rem;
  height:0.5rem;
-
+display:none;
    margin-bottom:2rem;  
  
 }

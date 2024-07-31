@@ -1,5 +1,5 @@
-import React, { Fragment } from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import React, { Fragment, useState } from "react";
+import { BrowserRouter, HashRouter, Route, Routes, useLocation } from "react-router-dom";
 import Home from "./Home/Home";
 import About from "./About/About";
 import Contact from "./Contact/Contact";
@@ -10,6 +10,11 @@ import { GlobalStyle } from "./GlobalStyle";
 import AllPage from "./Allpage/AllPage";
 import Resume from "./Resume/Resume";
 const App = ()=>{
+ 
+
+
+
+
 
   const theme = {
     colors:{
@@ -29,7 +34,7 @@ const App = ()=>{
     fontSize:{
       logoSize : "2.5rem",
       menuSize : "2rem",
-      mobileMenuSize:"5rem",
+      mobileMenuSize:"7vw",
       buttonfontSize : "1.8rem",
       profileSize: "1.5rem",
       aboutImageParaSize:"1.5rem",
@@ -49,27 +54,31 @@ const App = ()=>{
       tab:"998px"
     }
   }
-
-
+  const location = useLocation();
+ const path = location.pathname;
 
   return(
     <Fragment>
     <ThemeProvider theme={theme}>
     <GlobalStyle/>
-    <BrowserRouter>
+  
     <Header/>
   
+ 
     <Routes>
     <Route exact path="/" element = {<Home/>}/>
+    <Route exact path="/home" element = {<Home/>}/>
     <Route exact path="/about" element = {<About/>}/>
     <Route exact path = "/contact" element = {<Contact/>}/>
     <Route exact path = "/resume" element={<Resume/>}/>
     </Routes>
+
     <Footer/>
-    </BrowserRouter>
+  
     </ThemeProvider>
     </Fragment>
   )
+
 }
 
 export default App;

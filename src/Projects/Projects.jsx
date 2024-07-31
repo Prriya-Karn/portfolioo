@@ -3,6 +3,32 @@ import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import Heading from "../Heading/Heading";
 const Projects = () => {
+  const projectdata = [
+    {
+      proName : "Youtube Clone",
+      link : "https://youtubeclone-k9k3xkj80-priya-s-projects-23467243.vercel.app/"
+    },
+    {
+      proName : "Weather App",
+      link : "https://weatherapp-lilac-five.vercel.app/"
+    },
+    {
+      proName : "SearchFilter Web",
+      link : "https://searchfilterwebsite.vercel.app/"
+    },
+    {
+      proName : "Quiz App",
+      link : "https://quizapp-omega-dun.vercel.app/"
+    },
+    {
+      proName : "GithubProfile Web",
+      link : "https://quizapp-omega-dun.vercel.app/"
+    },
+    {
+      proName : "GithubProfile Web",
+      link : "https://quizapp-omega-dun.vercel.app/"
+    },
+  ]
     return (
         <Fragment>
             <ProjectWrapper>
@@ -55,10 +81,9 @@ const Projects = () => {
 
 
 <div className="pro-layer">
-<h1>Youtube Clone</h1>
+<h1>{projectdata[0].proName}</h1>
 <div className="prolink">
-<NavLink to="/about">
-<img src="/Images/link.png"/>
+<NavLink exact to={projectdata[0].link} target="_blank"><img src="/Images/link.png"/>
 </NavLink>
 </div>
 
@@ -85,11 +110,11 @@ const Projects = () => {
                       
                       
                             <div className="col-2 column-pro">
-                            <h1>Project 1</h1>
+                            <h1>Project 2</h1>
                             <div className="pro-layer">
-<h1>Youtube Clone</h1>
+<h1>{projectdata[1].proName}</h1>
 <div className="prolink">
-<NavLink to="/about">
+<NavLink exact to={projectdata[1].link}  target="_blank">
 <img src="/Images/link.png"/>
 </NavLink>
 </div>
@@ -116,9 +141,9 @@ const Projects = () => {
                   
                             <div className="col-3 column-pro">
                             <div className="pro-layer">
-<h1>Youtube Clone</h1>
+<h1>{projectdata[2].proName}</h1>
 <div className="prolink">
-<NavLink to="/about">
+<NavLink exact to={projectdata[2].link}  target="_blank">
 <img src="/Images/link.png"/>
 </NavLink>
 </div>
@@ -149,9 +174,9 @@ const Projects = () => {
                    
                             <div className="col-4 column-pro">
                             <div className="pro-layer">
-<h1>Youtube Clone</h1>
+<h1>{projectdata[3].proName}</h1>
 <div className="prolink">
-<NavLink to="/about">
+<NavLink exact to={projectdata[3].link}  target="_blank">
 <img src="/Images/link.png"/>
 </NavLink>
 </div>
@@ -183,9 +208,9 @@ const Projects = () => {
 
                             <div className="col-5 column-pro">
                             <div className="pro-layer">
-<h1>Youtube Clone</h1>
+<h1>{projectdata[4].proName}</h1>
 <div className="prolink">
-<NavLink to="/about">
+<NavLink exact to={projectdata[4].link}  target="_blank">
 <img src="/Images/link.png"/>
 </NavLink>
 </div>
@@ -194,9 +219,9 @@ const Projects = () => {
                             </div>
                             <div className="col-6 column-pro">
                             <div className="pro-layer">
-<h1>Youtube Clone</h1>
+<h1>{projectdata[4].proName}</h1>
 <div className="prolink">
-<NavLink to="/about">
+<NavLink exact to={projectdata[4].link}  target="_blank">
 <img src="/Images/link.png"/>
 </NavLink>
 </div>

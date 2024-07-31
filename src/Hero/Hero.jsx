@@ -19,7 +19,6 @@ const Hero = () => {
                             <SocialMedia/>
                             <Button
                                 name="Download CV"
-                             
                             />
                         </div>
 

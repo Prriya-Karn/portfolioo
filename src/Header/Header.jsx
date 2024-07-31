@@ -1,10 +1,20 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState } from "react";
 import Navbar from "./Navbar";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoClose } from "react-icons/io5";
+import MenuList, { menuName } from "./MenuList";
 const Header = () => {
+
+
+    const [hamburger,setHamBur] = useState(false);
+    const hamFun = ()=>{
+        setHamBur(!hamburger)
+        console.log(hamburger)
+    }
+
+
     return (
         <Fragment>
             <MainHead>
@@ -33,12 +43,14 @@ const Header = () => {
 
 
       <div className="mob-ham-close">
-      <GiHamburgerMenu className="hamburger" />
-      <IoClose className="close" />
-     
+      <GiHamburgerMenu className="hamburger" onClick={hamFun} />
      </div>
 
-                    <Navbar />
+  <Navbar
+  hamburger = {hamburger}
+  setHamBur = {setHamBur}
+  />
+ 
                    
                 </header>
             </MainHead>
@@ -149,7 +161,6 @@ z-index:-1;
 
 
 @media(max-width:980px){
-
 .blob-head{
 left:20%;
 width:50vw;

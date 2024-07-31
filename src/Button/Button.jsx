@@ -1,13 +1,24 @@
 import React, { Fragment } from "react";
+import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
-const Button = (props)=>{
+const Button = ({name,click})=>{
     return(
         <Fragment>
         <ButtonWrap>
-        <button className="heroButton">{props.name}</button>
         
-        </ButtonWrap>
+        {
+            name==="Github"?
+            <NavLink exact to="https://github.com/Prriya-Karn" target="_blank">
+            <button className="heroButton">
+            {name}
+            </button>
+            </NavLink>:
+          
+            <button className="heroButton" onClick={click}>{name}</button>
+        }
+        
+        </ButtonWrap> 
         </Fragment>
     )
 }

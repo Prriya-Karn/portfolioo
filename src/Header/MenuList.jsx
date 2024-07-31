@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink, useNavigate, useParams } from "react-router-dom";
 import styled from "styled-components";
 const menuName = [
     {
@@ -8,7 +8,7 @@ const menuName = [
     },
     {
         menu : "About",
-        path : "/about"
+        path : "/about",
     },
     {
         menu : "Resume",
@@ -17,23 +17,29 @@ const menuName = [
     {
         menu : "Contact",
         path : "/contact"
+        
     }
 ]
 
-
-const MenuList = ({menu,path})=>{
+const MenuList = ({menu,path,setHamBur})=>{
     return(
         <Fragment>
-        <menuList>
-        <li className="list">
-        <NavLink className="listNavLink" to={path}>{menu}</NavLink>
+        <MenuListWrap>
+        <li className="list active-list menu">
+      <NavLink onClick={()=>setHamBur(false)} 
+        className="listNavLink" to={path}>{menu}</NavLink>
         </li>
-        </menuList>
+        </MenuListWrap>
         </Fragment>
     )
 }
 
-const menuList = styled.li`
+const MenuListWrap = styled.div`
+.list{
+list-style:none;
+}
+@media(max-width:980px){
+}
 
 `;
 

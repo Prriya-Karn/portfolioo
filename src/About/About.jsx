@@ -3,11 +3,13 @@ import styled from "styled-components";
 import Skills from "./Skills";
 import Button from "../Button/Button";
 import Pro1 from "../Images/portfoliopro1.png";
+import { useLocation, useParams } from "react-router-dom";
 const About = () => {
+
     return (
         <Fragment>
         <AboutWrap>
-            <section className="about-section">
+            <section  className="about-section">
                 <div className="hero-container grid">
 
                 <div className="about-image">

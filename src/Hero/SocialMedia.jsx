@@ -4,22 +4,27 @@ import Github from "../Images/github.png";
 import LeetCode from "../Images/leetcode.png";
 import LinkedIn from "../Images/linkedin.png";
 import Twitter from "../Images/twitter.png";
+import { NavLink } from "react-router-dom";
 
 
 
 
 const socialImage = [
     {
-        image : {Github}
+        image : "../Images/github.png",
+        link : "https://github.com/Prriya-Karn"
     },
     {
-        image : {LeetCode}
+        image : "../Images/leetcode.png",
+        link : "https://leetcode.com/u/user1596V/"
     },
     {
-        image : {LinkedIn}
+        image : "../Images/linkedin.png",
+        link : "https://www.linkedin.com/in/priya-k-1374211b1/"
     },
     {
-        image : {Twitter}
+        image : "../Images/twitter.png",
+        link : "https://x.com/prjah12?t=x9T7qZykeWgf7ygtt8hRag&s=08" 
     },
     
 ]
@@ -28,24 +33,19 @@ const SocialMedia = ()=>{
         <Fragment>
         <SocialWrap>
         <div className="social">
-       <button>
-       <img className="socialImage" src= {Github}/>
-        
-       </button>
-      
-        
-       <button>
-        <img className="socialImage" src= {LeetCode}/>
-        </button>
-
-        <button>
-        <img className="socialImage" src= {Twitter}/>
-        </button>
-        
-        <button>
-        <img className="socialImage" src= {LinkedIn}/>
-        </button>
-      
+        {
+            socialImage.map((e)=>{
+                return(
+                    <Fragment>
+                    <NavLink exact to = {e.link} target="_Priya">
+                    <button>
+                    <img className="socialImage" src= {e.image}/>
+                    </button>
+                    </NavLink>
+                    </Fragment>
+                )
+            })
+        }
         </div>
         </SocialWrap>
         </Fragment>
