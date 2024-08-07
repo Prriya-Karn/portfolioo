@@ -1039,6 +1039,7 @@ font-size:10vw !important;
       @media(width<=400px){
   
    .project-container{
+   
     margin-top:90vw !important;
   height:900vh;
   width:200vw;
@@ -1055,9 +1056,7 @@ font-size:10vw !important;
     .card-project{
     display:grid;
      grid-template-rows:repeat(6,1fr);
-     gap:455vw;
-  
-
+     gap:415vw;
     }
     
     .card-project .card-row{
@@ -1065,19 +1064,23 @@ font-size:10vw !important;
     display:grid;
  grid-template-rows:repeat(6,1fr);
 grid-template-columns:1fr;
-gap:30vw;
+
     max-width:300vw;
     margin-left:-30vw !important;
     height:90vh;
     position:relative;
     }
+
+
        .column-pro{
+       background-color:orange;
       width:300vw;
     height:120vh;
      position: relative;
          border-radius:7rem;
         overflow: hidden;
     cursor : pointer;
+    margin-top:20vw;
     }
   
     .column-pro h1{
@@ -1164,7 +1167,7 @@ width:200vw;
   .card-project{
   display:grid;
    grid-template-rows:repeat(6,1fr);
-   gap:480vw;
+   gap:455vw;
   }
   
   .card-project .card-row{
@@ -1172,7 +1175,6 @@ width:200vw;
   display:grid;
 grid-template-rows:repeat(6,1fr);
 grid-template-columns:1fr;
-gap:30vw;
   max-width:300vw;
   margin-left:-30vw !important;
   height:90vh;
@@ -1180,6 +1182,7 @@ gap:30vw;
   }
      .column-pro{
        background-color:pink;
+        margin-top:20vw;
     width:300vw;
   height:120vh;
    position: relative;
@@ -1269,8 +1272,7 @@ width:200vw;
   .card-project{
   display:grid;
    grid-template-rows:repeat(6,1fr);
-   gap:570vw;
-
+    gap:510vw;
 
   }
   
@@ -1279,16 +1281,15 @@ width:200vw;
   display:grid;
 grid-template-rows:repeat(6,1fr);
 grid-template-columns:1fr;
-gap:30vw;
   max-width:300vw;
   margin-left:-30vw !important;
   height:90vh;
   position:relative;
   }
      .column-pro{
-     background-color:pink;
     width:300vw;
   height:120vh;
+  margin-top:20vw;
    position: relative;
        border-radius:7rem;
       overflow: hidden;
