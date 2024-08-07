@@ -1145,7 +1145,14 @@ grid-template-columns:1fr;
     
  
      }
+@media(width<=350px){
 
+.card-project{
+  display:grid;
+   grid-template-rows:repeat(6,1fr);
+   gap:480vw !important;
+  }
+}
 
 @media(width<=370px){
 
@@ -1269,11 +1276,11 @@ width:200vw;
   }
 
 
-  .card-project{
+  
+.card-project{
   display:grid;
    grid-template-rows:repeat(6,1fr);
-    gap:510vw;
-
+   gap:510vw !important;
   }
   
   .card-project .card-row{
