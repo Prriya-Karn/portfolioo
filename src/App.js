@@ -73,7 +73,7 @@ const App = ()=>{
     <Route exact path = "/resume" element={<Resume/>}/>
     </Routes>
 
-    <Footer/>
+    
   
     </ThemeProvider>
     </Fragment>

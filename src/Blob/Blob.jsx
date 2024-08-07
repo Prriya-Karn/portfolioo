@@ -85,10 +85,13 @@ postition:absolute;
 
 }
 @media(width<=1220px){
+.blob{
+}
 .blob svg{
     margin-left:15rem;
-width:300vw;
+    width:900% !important;
     z-index:-1;
+    display:none;
 }
 
 }

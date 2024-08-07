@@ -110,7 +110,7 @@ background: linear-gradient(45deg,rgba(0, 45, 80, 0.8),rgba(0, 45, 80, 0.8) 40%,
 
 
 @media(width<=1220px){
-.heroButton{
+button{
 outline:none;
 background: linear-gradient(45deg,rgba(0, 45, 80, 0.8),rgba(0, 45, 80, 0.8) 40%, rgba(0, 45, 80, 0.5) 60%, rgba(0, 45, 80, 0.8) 80%,rgba(0, 45, 80, 0.8));
     font-size: 4vw;
@@ -124,8 +124,8 @@ background: linear-gradient(45deg,rgba(0, 45, 80, 0.8),rgba(0, 45, 80, 0.8) 40%,
 }
 }
 @media(width<=1220px){
-.heroButton{
 
+.heroButton{
 outline:none;
 background: linear-gradient(45deg,rgba(0, 45, 80, 0.8),rgba(0, 45, 80, 0.8) 40%, rgba(0, 45, 80, 0.5) 60%, rgba(0, 45, 80, 0.8) 80%,rgba(0, 45, 80, 0.8));
     font-size: 5vw;
@@ -135,7 +135,7 @@ background: linear-gradient(45deg,rgba(0, 45, 80, 0.8),rgba(0, 45, 80, 0.8) 40%,
     cursor: pointer;
     transition: all 0.1s ease;
     height:18vh;
-    width:500vw !important;
+    width:100vw !important;
 }
 }
 `;

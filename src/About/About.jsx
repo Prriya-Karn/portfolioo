@@ -570,20 +570,19 @@ grid-template-columns:1fr;
     margin-left:-20vw !important;
 }
 section{
+
   padding:9rem 0;
-  margin-bottom : 70vw;
   width:300vw !important;
-  height:400vh;
+  height:750vh;
   margin-top:40vw;
   margin-left:50vw !important;
-
   }
   
   
   
   .about-image{
     max-width:300vw;
-    margin-left:8vw;
+    margin-left:20vw;
   margin-top:60vw;
   height:auto;
   display:grid;
@@ -666,20 +665,19 @@ grid-template-columns:1fr;
     margin-left:-20vw !important;
 }
 section{
+
   padding:9rem 0;
-  margin-bottom : 70vw;
-  width:300vw !important;
-  height:400vh;
+  width:320vw !important;
+  height:670vh;
   margin-top:40vw;
   margin-left:50vw !important;
-
   }
   
   
   
   .about-image{
     max-width:300vw;
-    margin-left:8vw;
+     margin-left:20vw;
   margin-top:60vw;
   height:auto;
   display:grid;
@@ -759,23 +757,23 @@ section{
 @media(width<=400px){
 .hero-container{
 grid-template-columns:1fr;
-    margin-left:-20vw !important;
 }
+
 section{
   padding:9rem 0;
   margin-bottom : 70vw;
-  width:300vw !important;
-  height:400vh;
+  width:380vw !important;
+  height:670vh;
   margin-top:40vw;
-  margin-left:50vw !important;
-
+    margin-left:20vw !important;
   }
   
+
   
   
   .about-image{
     max-width:300vw;
-    margin-left:8vw;
+    margin-left:20vw;
   margin-top:60vw;
   height:auto;
   display:grid;
@@ -835,7 +833,7 @@ section{
   
   
   .about-data h1{
-  font-size:20vw;
+  font-size:28vw;
   max-width:80%; 
   }
    .about-border{
@@ -852,25 +850,25 @@ section{
 }
 
 @media(width<=370px){
- .hero-container{
+.hero-container{
 grid-template-columns:1fr;
-    margin-left:-20vw !important;
 }
+
 section{
   padding:9rem 0;
   margin-bottom : 70vw;
-  width:300vw !important;
-  height:400vh;
-  margin-top:-20vw !important;
-  margin-left:50vw !important;
-
+  width:380vw !important;
+  height:600vh;
+  margin-top:40vw;
+    margin-left:20vw !important;
   }
   
+
   
   
   .about-image{
     max-width:300vw;
-    margin-left:8vw;
+    margin-left:20vw;
   margin-top:60vw;
   height:auto;
   display:grid;
@@ -943,30 +941,29 @@ section{
   font-size:15vw !important;
   margin-bottom:2vw;
   }
-
 }
 
 
 @media(width<=320px){
 .hero-container{
 grid-template-columns:1fr;
-    margin-left:-20vw !important;
 }
+
 section{
   padding:9rem 0;
   margin-bottom : 70vw;
-  width:300vw !important;
-  height:400vh;
+  width:380vw !important;
+  height:580vh;
   margin-top:40vw;
-  margin-left:50vw !important;
-
+    margin-left:20vw !important;
   }
   
+
   
   
   .about-image{
     max-width:300vw;
-    margin-left:8vw;
+    margin-left:20vw;
   margin-top:60vw;
   height:auto;
   display:grid;
@@ -980,15 +977,14 @@ section{
    margin-left:8vw;
     }
      .about-image-left img{
-    height: 70vh !important;
+    height: 60vh !important;
     width:120vw !important;
     margin-top:-3vw;
      }
   
   
   .about-image-right{
-
-  margin-left:-130vw !important;
+  margin-left:-120vw !important;
   width:200vw !important;
   margin-top:1vw;
   height:100vh;
@@ -1003,7 +999,7 @@ section{
   .profile{
   order:1;
   margin-bottom:10vw;
-  margin-top:15vw;
+  margin-top:10vw;
   max-width:80vw;
   height:auto;
   display:grid;
@@ -1023,12 +1019,11 @@ section{
   padding-left:10rem;
   max-width:300vw;
   margin-left:8vw;
-  margin-top:40vw;
   }
   
   
   .about-data h1{
-  font-size:25vw;
+  font-size:20vw;
   max-width:80%; 
   }
    .about-border{
@@ -1041,6 +1036,8 @@ section{
   font-size:15vw !important;
   margin-bottom:2vw;
   }
+
+
 }
 
 

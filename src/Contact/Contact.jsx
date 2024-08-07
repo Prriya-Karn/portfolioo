@@ -148,6 +148,652 @@ const ContactWrapper = styled.div`
   }
 
   // Add your media queries here...
+      @media(width<=1220px){
+        .blob-con-1 {
+    position: relative;
+    display:none;
+    max-width: 30rem;
+    left: 20rem;
+    top: -7rem;
+    z-index: -1;
+  }
+
+  
+  
+  .contact-container {
+  width:310vw;
+   height: 350vh;
+    margin-left:45vw;
+    margin-top:80vw !important;
+  }
+
+  .contact-form {
+    margin-left: 60vw;
+    margin-top: 10vw;
+    max-width: 200vw;
+    height: 200vh;
+  }
+  
+  .cont-inp {
+    gap: 5vw;
+  }
+  
+  .edu-border {
+    margin-left: 120vw;
+  }
+
+  .map {
+    width: 180rem;
+    height: 20rem;
+  }
+
+  .contact-form input {
+    background: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(10px);
+    border: 1px solid ${({ theme }) => theme.colors.buttonBackColor};
+    color: ${({ theme }) => theme.colors.buttonBackColor};
+    outline: none;
+    height: 30vh;
+    margin-bottom: 2rem;
+      font-size: 6vw;
+    padding: 1vw 0 0 5vw;
+  }
+  
+  .input-contact {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 7vw;
+  }
+
+  .textarea {
+    background: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(10px);
+    border: 1px solid ${({ theme }) => theme.colors.buttonBackColor};
+    color: ${({ theme }) => theme.colors.buttonBackColor};
+    font-size: 6vw;
+    height: 100vh;
+    padding: 1vw 0 0 5vw;
+    outline: none;
+    margin-top: 8vw;
+  }
+
+  .blob-con-2 {
+  display:none;
+    position: relative;
+    width: 30rem;
+    z-index: -1;
+    top: -2rem;
+    left: 40rem;
+  }
+
+      
+      }
+
+         @media(width<=400px){
+                 .blob-con-1 {
+    position: relative;
+    display:none;
+    max-width: 30rem;
+    left: 20rem;
+    top: -7rem;
+    z-index: -1;
+  }
+
+  
+  
+  .contact-container {
+ 
+  width:350vw !important;
+   height: 300vh !important;
+   margin-bottom:-10vw !important;
+    margin-left:20vw !important;
+  }
+
+  .contact-form {
+    margin-left: 1vw !important;
+    margin-top: 30vw !important;
+    max-width: 600vw;
+    height: 200vh;
+ 
+  }
+  
+  .cont-inp {
+   display:grid;
+    grid-template-columns:1fr;
+    grid-template-rows:repeat(2,1fr);
+  }
+  
+  .edu-border {
+    margin-left: 100vw !important;
+  }
+
+  .map {
+    width: 180rem;
+    height: 20rem;
+  }
+
+  .contact-form input {
+    background: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(10px);
+    border: 1px solid ${({ theme }) => theme.colors.buttonBackColor};
+    color: ${({ theme }) => theme.colors.buttonBackColor};
+    outline: none;
+    height: 30vh;
+    max-width:500vw !important;
+    margin-bottom: 2rem;
+      font-size: 6vw;
+    padding: 1vw 0 0 5vw;
+  }
+  
+  .input-contact {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 7vw;
+  }
+
+  .textarea {
+    background: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(10px);
+    border: 1px solid ${({ theme }) => theme.colors.buttonBackColor};
+    color: ${({ theme }) => theme.colors.buttonBackColor};
+    font-size: 6vw;
+    height: 100vh;
+    padding: 1vw 0 0 5vw;
+    outline: none;
+    margin-top: 8vw;
+  }
+
+  .blob-con-2 {
+  display:none;
+    position: relative;
+    width: 30rem;
+    z-index: -1;
+    top: -2rem;
+    left: 40rem;
+  }
+         }
+         @media(width<=370px){
+                .blob-con-1 {
+    position: relative;
+    display:none;
+    max-width: 30rem;
+    left: 20rem;
+    top: -7rem;
+    z-index: -1;
+  }
+
+  
+  
+  .contact-container {
+  width:350vw !important;
+     height: 300vh !important;
+    margin-left:20vw !important;
+  }
+
+  .contact-form {
+    margin-left: 1vw !important;
+    margin-top: 10vw;
+    max-width: 600vw;
+    height: 200vh;
+ 
+  }
+  
+  .cont-inp {
+   display:grid;
+    grid-template-columns:1fr;
+    grid-template-rows:repeat(2,1fr);
+  }
+  
+  .edu-border {
+    margin-left: 100vw !important;
+  }
+
+  .map {
+    width: 180rem;
+    height: 20rem;
+  }
+
+  .contact-form input {
+    background: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(10px);
+    border: 1px solid ${({ theme }) => theme.colors.buttonBackColor};
+    color: ${({ theme }) => theme.colors.buttonBackColor};
+    outline: none;
+    height: 30vh;
+    max-width:500vw !important;
+    margin-bottom: 2rem;
+      font-size: 6vw;
+    padding: 1vw 0 0 5vw;
+  }
+  
+  .input-contact {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 7vw;
+  }
+
+  .textarea {
+    background: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(10px);
+    border: 1px solid ${({ theme }) => theme.colors.buttonBackColor};
+    color: ${({ theme }) => theme.colors.buttonBackColor};
+    font-size: 6vw;
+    height: 100vh;
+    padding: 1vw 0 0 5vw;
+    outline: none;
+    margin-top: 8vw;
+  }
+
+  .blob-con-2 {
+  display:none;
+    position: relative;
+    width: 30rem;
+    z-index: -1;
+    top: -2rem;
+    left: 40rem;
+  }
+         }
+         
+@media(width<=320px){
+       .blob-con-1 {
+    position: relative;
+    display:none;
+    max-width: 30rem;
+    left: 20rem;
+    top: -7rem;
+    z-index: -1;
+  }
+
+  
+  
+  .contact-container {
+  width:350vw !important;
+     height: 300vh !important;
+    margin-left:20vw !important;
+  }
+
+  .contact-form {
+    margin-left: 1vw !important;
+    margin-top: 10vw;
+    max-width: 600vw;
+    height: 200vh;
+ 
+  }
+  
+  .cont-inp {
+   display:grid;
+    grid-template-columns:1fr;
+    grid-template-rows:repeat(2,1fr);
+  }
+  
+  .edu-border {
+    margin-left: 100vw !important;
+  }
+
+  .map {
+    width: 180rem;
+    height: 20rem;
+  }
+
+  .contact-form input {
+    background: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(10px);
+    border: 1px solid ${({ theme }) => theme.colors.buttonBackColor};
+    color: ${({ theme }) => theme.colors.buttonBackColor};
+    outline: none;
+    height: 30vh;
+    max-width:500vw !important;
+    margin-bottom: 2rem;
+      font-size: 6vw;
+    padding: 1vw 0 0 5vw;
+  }
+  
+  .input-contact {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 7vw;
+  }
+
+  .textarea {
+    background: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(10px);
+    border: 1px solid ${({ theme }) => theme.colors.buttonBackColor};
+    color: ${({ theme }) => theme.colors.buttonBackColor};
+    font-size: 6vw;
+    height: 100vh;
+    padding: 1vw 0 0 5vw;
+    outline: none;
+    margin-top: 8vw;
+  }
+
+  .blob-con-2 {
+  display:none;
+    position: relative;
+    width: 30rem;
+    z-index: -1;
+    top: -2rem;
+    left: 40rem;
+  }
+}
+@media(width<=800px){
+
+        .blob-con-1 {
+    position: relative;
+    display:none;
+    max-width: 30rem;
+    left: 20rem;
+    top: -7rem;
+    z-index: -1;
+  }
+
+  
+  
+  .contact-container {
+  width:310vw;
+   height: 350vh;
+    margin-left:45vw;
+     margin-top:80vw !important;
+  }
+
+  .contact-form {
+    margin-left: 60vw;
+    margin-top: 10vw;
+    max-width: 200vw;
+    height: 200vh;
+  }
+  
+  .cont-inp {
+    gap: 5vw;
+  }
+  
+  .edu-border {
+    margin-left: 120vw;
+  }
+
+  .map {
+    width: 180rem;
+    height: 20rem;
+  }
+
+  .contact-form input {
+    background: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(10px);
+    border: 1px solid ${({ theme }) => theme.colors.buttonBackColor};
+    color: ${({ theme }) => theme.colors.buttonBackColor};
+    outline: none;
+    height: 30vh;
+    margin-bottom: 2rem;
+      font-size: 6vw;
+    padding: 1vw 0 0 5vw;
+  }
+  
+  .input-contact {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 7vw;
+  }
+
+  .textarea {
+    background: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(10px);
+    border: 1px solid ${({ theme }) => theme.colors.buttonBackColor};
+    color: ${({ theme }) => theme.colors.buttonBackColor};
+    font-size: 6vw;
+    height: 100vh;
+    padding: 1vw 0 0 5vw;
+    outline: none;
+    margin-top: 8vw;
+  }
+
+  .blob-con-2 {
+  display:none;
+    position: relative;
+    width: 30rem;
+    z-index: -1;
+    top: -2rem;
+    left: 40rem;
+  }
+}
+ @media(width<=998px){
+         .blob-con-1 {
+    position: relative;
+    display:none;
+    max-width: 30rem;
+    left: 20rem;
+    top: -7rem;
+    z-index: -1;
+  }
+
+  
+  
+  .contact-container {
+   margin-top:80vw !important;
+  width:310vw;
+   height: 350vh;
+    margin-left:45vw;
+  }
+
+  .contact-form {
+    margin-left: 60vw;
+    margin-top: 10vw;
+    max-width: 200vw;
+    height: 200vh;
+  }
+  
+  .cont-inp {
+    gap: 5vw;
+  }
+  
+  .edu-border {
+    margin-left: 120vw;
+  }
+
+  .map {
+    width: 180rem;
+    height: 20rem;
+  }
+
+  .contact-form input {
+    background: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(10px);
+    border: 1px solid ${({ theme }) => theme.colors.buttonBackColor};
+    color: ${({ theme }) => theme.colors.buttonBackColor};
+    outline: none;
+    height: 30vh;
+    margin-bottom: 2rem;
+      font-size: 6vw;
+    padding: 1vw 0 0 5vw;
+  }
+  
+  .input-contact {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 7vw;
+  }
+
+  .textarea {
+    background: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(10px);
+    border: 1px solid ${({ theme }) => theme.colors.buttonBackColor};
+    color: ${({ theme }) => theme.colors.buttonBackColor};
+    font-size: 6vw;
+    height: 100vh;
+    padding: 1vw 0 0 5vw;
+    outline: none;
+    margin-top: 8vw;
+  }
+
+  .blob-con-2 {
+  display:none;
+    position: relative;
+    width: 30rem;
+    z-index: -1;
+    top: -2rem;
+    left: 40rem;
+  }
+ }
+ @media(width<=768px){
+ 
+ }
+ @media(width<=600px){
+   .blob-con-1 {
+    position: relative;
+    display:none;
+    max-width: 30rem;
+    left: 20rem;
+    top: -7rem;
+    z-index: -1;
+  }
+
+  
+  
+  .contact-container {
+  margin-top:70vw;
+  width:300vw;
+   height: 350vh;
+    margin-left:40vw;
+  }
+
+  .contact-form {
+    margin-left: 20vw;
+    margin-top: 10vw;
+    max-width: 900vw;
+    height: 200vh;
+  }
+  
+  .cont-inp {
+    gap: 5vw;
+  }
+  
+  .edu-border {
+    margin-left: 150vw;
+  }
+
+  .map {
+    width: 180rem;
+    height: 20rem;
+  }
+
+  .contact-form input {
+    background: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(10px);
+    border: 1px solid ${({ theme }) => theme.colors.buttonBackColor};
+    color: ${({ theme }) => theme.colors.buttonBackColor};
+    outline: none;
+    height: 30vh;
+    margin-bottom: 2rem;
+      font-size: 13vw;
+    padding: 1vw 0 0 5vw;
+    max-width:137vw;
+  }
+  
+  .input-contact {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 7vw;
+  }
+
+  .textarea {
+    background: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(10px);
+    border: 1px solid ${({ theme }) => theme.colors.buttonBackColor};
+    color: ${({ theme }) => theme.colors.buttonBackColor};
+    font-size: 13vw;
+    height: 100vh;
+    padding: 1vw 0 0 5vw;
+    outline: none;
+    margin-top: 8vw;
+  }
+
+  .blob-con-2 {
+  display:none;
+    position: relative;
+    width: 30rem;
+    z-index: -1;
+    top: -2rem;
+    left: 40rem;
+  }
+
+ }
+    @media(width<=500px){
+          .blob-con-1 {
+    position: relative;
+    display:none;
+    max-width: 30rem;
+    left: 20rem;
+    top: -7rem;
+    z-index: -1;
+  }
+
+  
+  
+  .contact-container {
+  margin-top:70vw;
+  width:300vw;
+   height: 350vh;
+    margin-left:40vw;
+  }
+
+  .contact-form {
+    margin-left: 20vw;
+    margin-top: 10vw;
+    max-width: 900vw;
+    height: 200vh;
+  }
+  
+  .cont-inp {
+    gap: 5vw;
+  }
+  
+  .edu-border {
+    margin-left: 150vw;
+  }
+
+  .map {
+    width: 180rem;
+    height: 20rem;
+  }
+
+  .contact-form input {
+    background: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(10px);
+    border: 1px solid ${({ theme }) => theme.colors.buttonBackColor};
+    color: ${({ theme }) => theme.colors.buttonBackColor};
+    outline: none;
+    height: 30vh;
+    margin-bottom: 2rem;
+      font-size: 13vw;
+    padding: 1vw 0 0 5vw;
+    max-width:137vw;
+  }
+  
+  .input-contact {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 7vw;
+  }
+
+  .textarea {
+    background: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(10px);
+    border: 1px solid ${({ theme }) => theme.colors.buttonBackColor};
+    color: ${({ theme }) => theme.colors.buttonBackColor};
+    font-size: 13vw;
+    height: 100vh;
+    padding: 1vw 0 0 5vw;
+    outline: none;
+    margin-top: 8vw;
+  }
+
+  .blob-con-2 {
+  display:none;
+    position: relative;
+    width: 30rem;
+    z-index: -1;
+    top: -2rem;
+    left: 40rem;
+  }
+    }
 
 `;
 
