@@ -650,7 +650,7 @@ font-size:20vw;
 
   .edu-container{
 width:300vw !important;
-  margin-top:-50vw !important;
+  margin-top:-60vw !important;
   margin-left:40vw;
  height:300vh;
   }
@@ -728,9 +728,8 @@ width:300vw !important;
    }
 
    @media(width<=370px){
-   
+
   .edu-container{
-  
   margin-top:-50vw !important;
 width:300vw !important;
   margin-left:40vw;

@@ -908,9 +908,6 @@ height:9vh;
 color:white;
 font-size:10vw !important;
   }
-  
-
-
 }
    @media(width<=500px){
 
@@ -1167,9 +1164,7 @@ width:200vw;
   .card-project{
   display:grid;
    grid-template-rows:repeat(6,1fr);
-   gap:455vw;
-
-
+   gap:480vw;
   }
   
   .card-project .card-row{
@@ -1184,6 +1179,7 @@ gap:30vw;
   position:relative;
   }
      .column-pro{
+       background-color:pink;
     width:300vw;
   height:120vh;
    position: relative;

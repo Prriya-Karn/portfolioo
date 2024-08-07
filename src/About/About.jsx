@@ -757,6 +757,7 @@ section{
 @media(width<=400px){
 .hero-container{
 grid-template-columns:1fr;
+
 }
 
 section{

@@ -245,6 +245,7 @@ const ContactWrapper = styled.div`
  
   width:350vw !important;
    height: 300vh !important;
+     margin-top:-90vw !important;
    margin-bottom:-10vw !important;
     margin-left:20vw !important;
   }
