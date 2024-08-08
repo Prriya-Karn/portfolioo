@@ -13,7 +13,7 @@ import Projects from "./Projects/Projects";
 const App = ()=>{
  
   useEffect(() => {
-    document.body.style.zoom = '100%'; // Set zoom level to 100%
+    document.body.style.zoom = '100%';
   }, []);
 
 

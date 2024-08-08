@@ -149,13 +149,15 @@ flex-direction:columns;
     
     .hero-image{
     min-height:30vh;
-    width:300vw !important;
+    width:500vw !important;
     position:relative;
+    background-color:pink;
     }
     
     .hero-image img{
     postition:absolute;
-        width:150vw !important;
+    height:150vh !important;
+    width:150vw !important;
         }
     
     .hero-data h5{
