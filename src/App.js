@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import { BrowserRouter, HashRouter, Route, Routes, useLocation } from "react-router-dom";
 import Home from "./Home/Home";
 import About from "./About/About";
@@ -12,7 +12,9 @@ import Resume from "./Resume/Resume";
 import Projects from "./Projects/Projects";
 const App = ()=>{
  
-
+  useEffect(() => {
+    document.body.style.zoom = '100%'; // Set zoom level to 100%
+  }, []);
 
 
 
