@@ -151,7 +151,6 @@ flex-direction:columns;
     min-height:30vh;
     width:500vw !important;
     position:relative;
-    background-color:pink;
     }
     
     .hero-image img{
@@ -216,6 +215,65 @@ flex-direction:columns;
     .hero-data h1{
     font-size:20vw;
     }
+
+}
+
+
+@media(width<=370px){
+
+
+.hero-container{
+
+    display:grid;
+    grid-template-columns:
+    padding-top:20rem;
+    width:500vw;
+    }
+    
+    
+    .hero-data{
+    padding-top:15vw;
+    margin-left:-20vw !important;
+    max-width:1000vw !important;
+    min-height:70vh;
+    }
+    
+    .hero-image{
+    min-height:30vh;
+    width:500vw !important;
+    position:relative;
+    }
+    
+    .hero-image img{
+    border:5px solid black;
+ background: linear-gradient(45deg,rgba(0, 45, 80, 0.8),rgba(0, 45, 80, 0.8) 40%, rgba(0, 45, 80, 0.5) 60%, rgba(0, 45, 80, 0.8) 80%,rgba(0, 45, 80, 0.8));
+    border-radius:100%;
+    padding:10vw;
+    postition:absolute;
+    height:130vh !important;
+    width:150vw !important;
+     animation: up-down 1s ease-in-out infinite alternate-reverse both;
+  }
+  
+  @keyframes up-down{
+    0%{
+      transform: translateY(10px);
+    }
+    100%{
+      transform: translateY(-10px);
+    }
+  }
+        
+
+    .hero-data h5{
+        color:${({ theme }) => theme.colors.grey};
+        font-size:30vw !important;
+        }
+        
+        
+        .hero-data h1{
+        font-size:40vw !important;
+        }
 
 }
 

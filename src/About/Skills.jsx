@@ -701,6 +701,90 @@ margin-bottom:0.5rem;
     }
 }
 
+
+@media(width<=370px){
+
+.skills-section{
+
+    width:260vw;
+    margin-top:-100vw !important;
+    margin-left:10vw;
+    }
+    
+    .skills-section h1{
+    font-size:28vw !important;
+    line-height:6vh;
+    }
+    
+    
+    
+    .skill-bar{
+    height:200vh;
+    margin-top:5vw;
+    max-width:700vw !important;
+    line-height:12vh;
+    }
+    .skill p{
+    padding-top:5vw;
+    padding-bottom:5vw;
+    font-size :15vw !important;
+    }
+    
+    
+    .container-bar{
+    width:800%;
+    height:3vh;
+    
+    }
+    
+    .html-bar{
+    max-width:190vw;
+    height:3vh;
+     }
+    
+    .css-bar{
+    border-radius:1rem;
+    height:3vh;
+    max-width:150vw;
+    }
+    
+    .js-bar{
+    border-radius:1rem;
+    max-width:210vw;
+    height:3vh;
+    color:white;
+    background: ${({theme})=>theme.colors.buttonBackColor};
+    }
+    
+    .dsa-bar{
+    border-radius:1rem;
+    max-width:90vw;
+    height:3vh;
+     }
+    
+    .react-bar{
+    border-radius:1rem;
+    height:3vh;
+    max-width:190vw;
+     }
+    
+    .python-bar{
+    height:3vh;
+    max-width:150vw;
+    }
+    .skill .dot{
+    color: ${({theme})=>theme.colors.buttonBackColor};
+    font-size:1rem;
+    }
+    .skill{
+    margin-top:1rem;
+    }
+    .skill p{
+    font-size : ${({theme})=>theme.fontSize.skillP};
+    margin-bottom:0.5rem;
+    }
+}
+
 @media(width<=320px){
 
 .skills-section{

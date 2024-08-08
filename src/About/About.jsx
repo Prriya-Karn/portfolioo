@@ -852,6 +852,7 @@ grid-template-columns:1fr;
 }
 
 section{
+
   padding:9rem 0;
   margin-bottom : 70vw;
   width:380vw !important;
@@ -867,7 +868,7 @@ section{
     max-width:300vw;
     margin-left:20vw;
   margin-top:60vw;
-  height:auto;
+  height:400vh;
   display:grid;
     grid-template-columns : repeat(2,1fr);
   order:2;
@@ -875,26 +876,26 @@ section{
   
     .about-image-left{
   max-width:120vw;
-    height:90vh;
+    height:86vh;
    margin-left:8vw;
     }
      .about-image-left img{
-    height: 80vh !important;
+    height: 70vh !important;
     width:120vw !important;
     margin-top:-3vw;
      }
   
   
   .about-image-right{
-  margin-left:-120vw !important;
-  width:200vw !important;
+  margin-left:-130vw !important;
+  width:230vw !important;
   margin-top:1vw;
   height:100vh;
   }
   
   .about-image-right p{
 
-  font-size:13vw !important;
+  font-size:15vw !important;
   line-height:15vh;
   }
   
@@ -910,11 +911,11 @@ section{
   }
   .pro-right .pro-para-right{
   width:400vw !important;
-  margin-left:30vw;
+  margin-left:-180vw !important;
   }
   .pro-left .pro-para-left{
   width:90vw;
-  font-size:15vw !important;
+  font-size:17vw !important;
   }
   
   .about-data{
@@ -925,7 +926,7 @@ section{
   
   
   .about-data h1{
-  font-size:20vw;
+  font-size:30vw;
   max-width:80%; 
   }
    .about-border{
@@ -935,8 +936,8 @@ section{
    }
 
   .about-data p{
-  max-width:910vw !important;
-  font-size:15vw !important;
+  width:320vw !important;
+  font-size:17vw !important;
   margin-bottom:2vw;
   }
 }
