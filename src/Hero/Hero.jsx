@@ -10,7 +10,7 @@ const Hero = () => {
         <Fragment>
             <HeroWrap>
                 <section>
-                    <div className="hero-container grid">
+                    <div className="hero-container grid" id="home">
                         <div className="hero-data">
                             <h5>Hello, It's Me </h5>
                             <h1>Priya Karn</h1>

@@ -2,6 +2,7 @@ import React, { Fragment, useEffect, useState } from "react";
 import styled from "styled-components";
 import Heading from "../Heading/Heading";
 import Button from "../Button/Button";
+import Footer from "../Footer/Footer";
 
 const Contact = () => {
   return (

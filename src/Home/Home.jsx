@@ -10,7 +10,7 @@ const Home = ()=>{
     return(
         <Fragment>
         <WrapHome>
-        <section id="home">
+        <section>
         <Hero/>
         <About/>
         <Education/>

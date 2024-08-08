@@ -66,7 +66,9 @@ const Education=()=>{
 const EducationWrapper = styled.div`
 
 .edu-container{
-margin-top:-30rem;  
+margin-top:-30rem; 
+margin-bottom:10vw;
+height:50vh; 
 }
 .edu-head{
 font-size:${({theme})=>theme.fontSize.eduHead};

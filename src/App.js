@@ -9,6 +9,7 @@ import { ThemeProvider } from "styled-components";
 import { GlobalStyle } from "./GlobalStyle";
 import AllPage from "./Allpage/AllPage";
 import Resume from "./Resume/Resume";
+import Projects from "./Projects/Projects";
 const App = ()=>{
  
 
@@ -64,16 +65,16 @@ const App = ()=>{
   
     <Header/>
   
- <Home/>
-   {/* <Routes>
+ 
+    <Routes>
     <Route exact path="/" element = {<Home/>}/>
     <Route exact path="/home" element = {<Home/>}/>
     <Route exact path="/about" element = {<About/>}/>
     <Route exact path = "/contact" element = {<Contact/>}/>
-    <Route exact path = "/resume" element={<Resume/>}/>
+    <Route exact path = "/projects" element={<Projects/>}/>
     </Routes>
 
-    */}
+    
   
     </ThemeProvider>
     </Fragment>

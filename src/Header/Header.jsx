@@ -59,6 +59,7 @@ const Header = () => {
 }
 
 const MainHead = styled.header`
+
 .logo{
 color : ${({ theme }) => theme.colors.logoColor};
 font-size : ${({ theme }) => theme.fontSize.logoSize};
@@ -102,6 +103,7 @@ display:none;
 
 
 @media(width<=400px){
+
 .logo{
 color : ${({ theme }) => theme.colors.logoColor};
 font-size : ${({ theme }) => theme.fontSize.logoSize};

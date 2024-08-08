@@ -4,6 +4,7 @@ import Skills from "./Skills";
 import Button from "../Button/Button";
 import Pro1 from "../Images/portfoliopro1.png";
 import { useLocation, useParams } from "react-router-dom";
+import Footer from "../Footer/Footer";
 const About = () => {
 
     return (
@@ -70,8 +71,9 @@ const About = () => {
 name = "Github"
 />
                     </div>
-                  
+              
                 </div>
+            
             </section>
             </AboutWrap>
         </Fragment>
@@ -83,13 +85,12 @@ const AboutWrap = styled.section`
 section{
 padding:9rem 0;
 margin-bottom : 40rem;
+overflow:hidden;
 }
 
 
 
 .about-image{
-
-  
 height:auto;
 display:grid;
 
@@ -759,7 +760,7 @@ section{
   padding:9rem 0;
   margin-bottom : 70vw;
   width:380vw !important;
-  height:670vh;
+  height:auto;
   margin-top:10vw;
     margin-left:20vw !important;
   }
