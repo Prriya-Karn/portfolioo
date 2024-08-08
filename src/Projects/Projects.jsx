@@ -74,8 +74,11 @@ const Projects = () => {
                        fill="url(#gradient)"></path>
                     </svg>
                     </div>
+                    
                             <div className="col-1 column-pro">
                             <h1>Project 1</h1>
+                        
+                            
 
 
 
@@ -1079,7 +1082,7 @@ font-size:10vw !important;
 
 
        .column-pro{
-       background-color:orange;
+       background-color:#CCD5DF;
       width:300vw;
     height:120vh;
      position: relative;
