@@ -283,7 +283,7 @@ const ContactWrapper = styled.div`
     height: 30vh;
     max-width:500vw !important;
     margin-bottom: 2rem;
-      font-size: 6vw;
+      font-size: 15vw !important;
     padding: 1vw 0 0 5vw;
   }
   
@@ -298,7 +298,7 @@ const ContactWrapper = styled.div`
     backdrop-filter: blur(10px);
     border: 1px solid ${({ theme }) => theme.colors.buttonBackColor};
     color: ${({ theme }) => theme.colors.buttonBackColor};
-    font-size: 6vw;
+      font-size: 15vw !important;
     height: 100vh;
     padding: 1vw 0 0 5vw;
     outline: none;
@@ -364,7 +364,7 @@ const ContactWrapper = styled.div`
     height: 30vh;
     max-width:500vw !important;
     margin-bottom: 2rem;
-      font-size: 6vw;
+      font-size: 15vw !important;
     padding: 1vw 0 0 5vw;
   }
   
@@ -379,7 +379,7 @@ const ContactWrapper = styled.div`
     backdrop-filter: blur(10px);
     border: 1px solid ${({ theme }) => theme.colors.buttonBackColor};
     color: ${({ theme }) => theme.colors.buttonBackColor};
-    font-size: 6vw;
+      font-size: 15vw !important;
     height: 100vh;
     padding: 1vw 0 0 5vw;
     outline: none;
