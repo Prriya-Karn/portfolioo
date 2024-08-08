@@ -195,13 +195,17 @@ flex-direction:columns;
     }
     
     .hero-image{
-    margin-left:50vw !important;
+    margin-left:70vw !important;
     order:1;
    height:100vh;
     width:90vw;
     }
     
+
     .hero-image img{
+    border:5px solid black;
+ background: linear-gradient(45deg,rgba(0, 45, 80, 0.8),rgba(0, 45, 80, 0.8) 40%, rgba(0, 45, 80, 0.5) 60%, rgba(0, 45, 80, 0.8) 80%,rgba(0, 45, 80, 0.8));
+    border-radius:100%;
       max-width: 900% !important;
       height: 150vh;
         }
@@ -268,7 +272,7 @@ flex-direction:columns;
     .hero-data h5{
         color:${({ theme }) => theme.colors.grey};
         font-size:30vw !important;
-        }
+        }   
         
         
         .hero-data h1{
