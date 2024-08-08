@@ -4,20 +4,24 @@ import styled from "styled-components";
 const menuName = [
     {
         menu : "Home",
-        path : "/"
+        path : "#home"
     },
     {
         menu : "About",
-        path : "/about",
+        path : "#aboutus",
     },
     {
-        menu : "Resume",
-        path : "/resume"
+        menu : "Projects",
+        path : "#projects"
     },
     {
         menu : "Contact",
-        path : "/contact"
+        path : "#contact"
         
+    },
+    {
+        menu : "Skills",
+        path : "#aboutus"
     }
 ]
 
@@ -26,8 +30,8 @@ const MenuList = ({menu,path,setHamBur})=>{
         <Fragment>
         <MenuListWrap>
         <li className="list active-list menu">
-      <NavLink onClick={()=>setHamBur(false)} 
-        className="listNavLink" to={path}>{menu}</NavLink>
+      <a onClick={()=>setHamBur(false)} 
+        className="listNavLink" href={path}>{menu}</a>
         </li>
         </MenuListWrap>
         </Fragment>

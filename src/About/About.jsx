@@ -9,7 +9,7 @@ const About = () => {
     return (
         <Fragment>
         <AboutWrap>
-            <section  className="about-section">
+            <section  className="about-section" id="aboutus">
                 <div className="hero-container grid">
 
                 <div className="about-image">
@@ -37,8 +37,12 @@ const About = () => {
                    </div>
                     
                     <div className="about-border">.</div>
-                    <p>I'm Priya Karn. A Front End Developer,youtuber,and freelancer.
-                    A Front End Developer,youtuber,and freelancer.
+                    <p>
+                    Hi,🙋‍♀️ I'm Priya Karn, a front-end developer 
+                    with a passion for creating stunning, user-friendly
+                     web experiences. I specialize in HTML, CSS, JavaScript,
+                     and ReactJS, turning complex ideas into clean, responsive designs.
+                    Let's create something amazing together 😀!
                     </p>
                   
                     <div className="profile">
@@ -205,12 +209,13 @@ margin-bottom:1.5rem;
  @media(width<=1220px){
 
  section{
+
 padding:9rem 0;
 margin-bottom : 70vw;
-width:300vw;
+width:400vw;
 height:400vh;
 margin-top:40vw;
-margin-left:50vw;
+margin-left:10vw;
 }
 
 
@@ -229,7 +234,7 @@ width:200vw;
  margin-left:8vw;
   }
    .about-image-left img{
-  height: 98vh;
+  height: 70vh;
   width:50vw;
   margin-top:-3vw;
    }
@@ -239,12 +244,12 @@ width:200vw;
 margin-left:-45vw;
 width:100vw;
 margin-top:1vw;
-height:100vh;
+height:90vh;
 }
 
 .about-image-right p{
-font-size:6vw;
-line-height:18vh;
+font-size:8vw;
+line-height:15vh;
 }
 
 .profile{
@@ -257,24 +262,23 @@ display:grid;
   grid-template-columns : repeat(2,1fr);
 }
 .pro-right .pro-para-right{
-width:70vw;
-margin-left:18vw;
+width:200vw;
+margin-left:10vw;
 }
 .pro-left .pro-para-left{
-width:40vw;
-
-font-size:6vw;
+width:70vw;
+font-size:10vw;
 }
 
 .about-data{
 padding-left:10rem;
 max-width:300vw;
-margin-left:8vw;
+margin-left:-12vw;
 }
 
 
 .about-data h1{
-font-size:13vw;
+font-size:18vw;
 max-width:80%; 
 }
  .about-border{
@@ -284,281 +288,272 @@ max-width:80%;
  }
 .about-data p{
 max-width:900vw;
-font-size:6vw;
+font-size:10vw;
 margin-bottom:2vw;
 }
  }
 
  @media(width<=800px){
  
-
  section{
-  padding:9rem 0;
-  margin-bottom : 70vw;
-  width:360vw !important;
-  height:400vh;
-  margin-top:40vw;
-  margin-left:30vw !important;
 
-  }
-  
-  
-  
-  .about-image{
-  
-  height:auto;
-  display:grid;
-    grid-template-columns : repeat(2,1fr);
-  
-  }
-  
-    .about-image-left{
-  max-width:60vw;
-    height:90vh;
-   
-   margin-left:8vw;
-    }
-     .about-image-left img{
-    height: 80vh !important;
-    width:60vw !important;
-    margin-top:-3vw;
-     }
-  
-  
-  .about-image-right{
- 
-  margin-left:-80vw !important;
-  width:120vw !important;
-  margin-top:1vw;
-  height:100vh;
-  }
-  
-  .about-image-right p{
+padding:9rem 0;
+margin-bottom : 70vw;
+width:400vw;
+height:400vh;
+margin-top:40vw;
+margin-left:10vw;
+}
 
-  font-size:7.6vw !important;
-  line-height:18vh;
+
+
+.about-image{
+
+height:auto;
+display:grid;
+  grid-template-columns : repeat(2,1fr);
+
+}
+
+  .about-image-left{
+width:200vw;
+  height:90vh;
+ margin-left:8vw;
   }
-  
-  .profile{
-  margin-bottom:10vw;
-  margin-top:10vw;
-  max-width:80vw;
-  height:auto;
-  display:grid;
-  
-    grid-template-columns : repeat(2,1fr);
-  }
-  .pro-right .pro-para-right{
-  width:80vw !important;
-  margin-left:18vw;
-  }
-  .pro-left .pro-para-left{
-  width:40vw;
-  font-size:8vw !important;
-  }
-  
-  .about-data{
-  padding-left:10rem;
-  max-width:300vw;
-  margin-left:8vw;
-  }
-  
-  
-  .about-data h1{
-  font-size:13vw;
-  max-width:80%; 
-  }
-   .about-border{
-     height:2vh;
-   max-width:30vw;
-     margin-bottom:5vw;  
+   .about-image-left img{
+  height: 70vh;
+  width:50vw;
+  margin-top:-3vw;
    }
-  .about-data p{
-  max-width:910vw !important;
-  font-size:8vw !important;
-  margin-bottom:2vw;
-  }
-  
+
+
+.about-image-right{
+margin-left:-90vw !important;
+width:100vw;
+margin-top:1vw;
+height:90vh;
+}
+
+.about-image-right p{
+font-size:8vw;
+line-height:15vh;
+}
+
+.profile{
+margin-bottom:10vw;
+margin-top:10vw;
+max-width:80vw;
+height:auto;
+display:grid;
+
+  grid-template-columns : repeat(2,1fr);
+}
+.pro-right .pro-para-right{
+width:200vw;
+margin-left:10vw;
+}
+.pro-left .pro-para-left{
+width:70vw;
+font-size:10vw;
+}
+
+.about-data{
+padding-left:10rem;
+max-width:300vw;
+margin-left:-12vw;
+}
+
+
+.about-data h1{
+font-size:18vw;
+max-width:80%; 
+}
+ .about-border{
+   height:2vh;
+ max-width:30vw;
+   margin-bottom:5vw;  
+ }
+.about-data p{
+max-width:900vw;
+font-size:10vw;
+margin-bottom:2vw;
+}
  }
 
 
 @media(width<=998px){
 
 section{
-  padding:9rem 0;
-  margin-bottom : 70vw;
-  width:300vw;
-  height:400vh;
-  margin-top:40vw;
-  margin-left:40vw;
 
+padding:9rem 0;
+margin-bottom : 70vw;
+width:400vw;
+height:400vh;
+margin-top:40vw;
+margin-left:10vw;
+}
+
+
+
+.about-image{
+
+height:auto;
+display:grid;
+  grid-template-columns : repeat(2,1fr);
+
+}
+
+  .about-image-left{
+width:200vw;
+  height:90vh;
+ margin-left:8vw;
   }
-  
-  
-  
-  .about-image{
-  
-  height:auto;
-  display:grid;
-    grid-template-columns : repeat(2,1fr);
-  
-  }
-  
-    .about-image-left{
-  width:200vw;
-    height:90vh;
-   margin-left:8vw;
-    }
-     .about-image-left img{
-    height: 98vh;
-    width:50vw;
-    margin-top:-3vw;
-     }
-  
-  
-  .about-image-right{
-  margin-left:-45vw;
-  width:100vw;
-  margin-top:1vw;
-  height:100vh;
-  }
-  
-  .about-image-right p{
-  font-size:6vw;
-  line-height:18vh;
-  }
-  
-  .profile{
-  margin-bottom:10vw;
-  margin-top:10vw;
-  max-width:80vw;
-  height:auto;
-  display:grid;
-  
-    grid-template-columns : repeat(2,1fr);
-  }
-  .pro-right .pro-para-right{
-  width:70vw;
-  margin-left:18vw;
-  }
-  .pro-left .pro-para-left{
-  width:40vw;
-  
-  font-size:6vw;
-  }
-  
-  .about-data{
-  padding-left:10rem;
-  max-width:300vw;
-  margin-left:8vw;
-  }
-  
-  
-  .about-data h1{
-  font-size:13vw;
-  max-width:80%; 
-  }
-   .about-border{
-     height:2vh;
-   max-width:30vw;
-     margin-bottom:5vw;  
+   .about-image-left img{
+  height: 70vh;
+  width:50vw;
+  margin-top:-3vw;
    }
-  .about-data p{
-  max-width:900vw;
-  font-size:6vw;
-  margin-bottom:2vw;
-  }
+
+
+.about-image-right{
+margin-left:-45vw;
+width:100vw;
+margin-top:1vw;
+height:90vh;
+}
+
+.about-image-right p{
+font-size:8vw;
+line-height:15vh;
+}
+
+.profile{
+margin-bottom:10vw;
+margin-top:10vw;
+max-width:80vw;
+height:auto;
+display:grid;
+
+  grid-template-columns : repeat(2,1fr);
+}
+.pro-right .pro-para-right{
+width:200vw;
+margin-left:10vw;
+}
+.pro-left .pro-para-left{
+width:70vw;
+font-size:10vw;
+}
+
+.about-data{
+padding-left:10rem;
+max-width:300vw;
+margin-left:-12vw;
+}
+
+
+.about-data h1{
+font-size:18vw;
+max-width:80%; 
+}
+ .about-border{
+   height:2vh;
+ max-width:30vw;
+   margin-bottom:5vw;  
+ }
+.about-data p{
+max-width:900vw;
+font-size:10vw;
+margin-bottom:2vw;
+}
   
 }
 
 @media(width<=768px){
 
 section{
-  padding:9rem 0;
-  margin-bottom : 70vw;
-  width:360vw !important;
-  height:400vh;
-  margin-top:40vw;
-  margin-left:30vw !important;
 
-  }
-  
-  
-  
-  .about-image{
-  
-  height:auto;
-  display:grid;
-    grid-template-columns : repeat(2,1fr);
-  
-  }
-  
-    .about-image-left{
-  max-width:60vw;
-    height:90vh;
-   
-   margin-left:8vw;
-    }
-     .about-image-left img{
-    height: 80vh !important;
-    width:60vw !important;
-    margin-top:-3vw;
-     }
-  
-  
-  .about-image-right{
- 
-  margin-left:-80vw !important;
-  width:120vw !important;
-  margin-top:1vw;
-  height:100vh;
-  }
-  
-  .about-image-right p{
+padding:9rem 0;
+margin-bottom : 70vw;
+width:400vw;
+height:400vh;
+margin-top:40vw;
+margin-left:10vw;
+}
 
-  font-size:7.6vw !important;
-  line-height:18vh;
+
+
+.about-image{
+
+height:auto;
+display:grid;
+  grid-template-columns : repeat(2,1fr);
+
+}
+
+  .about-image-left{
+width:200vw;
+  height:90vh;
+ margin-left:8vw;
   }
-  
-  .profile{
-  margin-bottom:10vw;
-  margin-top:10vw;
-  max-width:80vw;
-  height:auto;
-  display:grid;
-  
-    grid-template-columns : repeat(2,1fr);
-  }
-  .pro-right .pro-para-right{
-  width:80vw !important;
-  margin-left:18vw;
-  }
-  .pro-left .pro-para-left{
-  width:40vw;
-  font-size:8vw !important;
-  }
-  
-  .about-data{
-  padding-left:10rem;
-  max-width:300vw;
-  margin-left:8vw;
-  }
-  
-  
-  .about-data h1{
-  font-size:13vw;
-  max-width:80%; 
-  }
-   .about-border{
-     height:2vh;
-   max-width:30vw;
-     margin-bottom:5vw;  
+   .about-image-left img{
+  height: 70vh;
+  width:50vw;
+  margin-top:-3vw;
    }
-  .about-data p{
-  max-width:910vw !important;
-  font-size:8vw !important;
-  margin-bottom:2vw;
-  }
+
+
+.about-image-right{
+margin-left:-90vw !important;
+width:100vw;
+margin-top:1vw;
+height:90vh;
+}
+
+.about-image-right p{
+font-size:8vw;
+line-height:15vh;
+}
+
+.profile{
+margin-bottom:10vw;
+margin-top:10vw;
+max-width:80vw;
+height:auto;
+display:grid;
+
+  grid-template-columns : repeat(2,1fr);
+}
+.pro-right .pro-para-right{
+width:200vw;
+margin-left:10vw;
+}
+.pro-left .pro-para-left{
+width:70vw;
+font-size:10vw;
+}
+
+.about-data{
+padding-left:10rem;
+max-width:300vw;
+margin-left:-12vw;
+}
+
+
+.about-data h1{
+font-size:18vw;
+max-width:80%; 
+}
+ .about-border{
+   height:2vh;
+ max-width:30vw;
+   margin-bottom:5vw;  
+ }
+.about-data p{
+max-width:900vw;
+font-size:10vw;
+margin-bottom:2vw;
+}
 
 }
 
@@ -765,7 +760,7 @@ section{
   margin-bottom : 70vw;
   width:380vw !important;
   height:670vh;
-  margin-top:40vw;
+  margin-top:10vw;
     margin-left:20vw !important;
   }
   
@@ -860,7 +855,7 @@ section{
   margin-bottom : 70vw;
   width:380vw !important;
   height:600vh;
-  margin-top:40vw;
+  margin-top:30vw;
     margin-left:20vw !important;
   }
   
@@ -937,6 +932,7 @@ section{
    max-width:30vw;
      margin-bottom:5vw;  
    }
+
   .about-data p{
   max-width:910vw !important;
   font-size:15vw !important;
@@ -955,7 +951,7 @@ section{
   margin-bottom : 70vw;
   width:380vw !important;
   height:580vh;
-  margin-top:40vw;
+  margin-top:-20vw;
     margin-left:20vw !important;
   }
   

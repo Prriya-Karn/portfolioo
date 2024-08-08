@@ -5,7 +5,7 @@ const Skills = ()=>{
         <Fragment>
         <SkillWrapper>
         
-        <div className="skills-section">
+        <div className="skills-section" id="skills">
                 <h1>Skills</h1>
                 <br></br>
                 <div className="skill-border">.</div>
@@ -171,7 +171,7 @@ display:none;
  .skills-section{
 width:100vw;
 height:250vh;
-margin-top:-1vw;
+margin-top:10vw;
 margin-left:10vw;
 }
 
@@ -189,7 +189,7 @@ max-width:100vw;
 line-height:18vh;
 }
 .skill p{
-font-size :6vw !important;
+font-size :10vw !important;
 padding-bottom:2vw;
 padding-top:2vw;
 }

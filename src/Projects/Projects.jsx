@@ -32,7 +32,7 @@ const Projects = () => {
     return (
         <Fragment>
             <ProjectWrapper>
-                <div className="project-container">
+                <div className="project-container" id="projects">
                 <div className="mob-pro-head">
                 <Heading
                 headName = "Projects"
@@ -75,7 +75,7 @@ const Projects = () => {
                     </svg>
                     </div>
                             <div className="col-1 column-pro">
-                            
+                            <h1>Project 1</h1>
 
 
 
@@ -140,6 +140,8 @@ const Projects = () => {
                       
                   
                             <div className="col-3 column-pro">
+                           
+                            <h1>Project 3</h1>
                             <div className="pro-layer">
 <h1>{projectdata[2].proName}</h1>
 <div className="prolink">
@@ -173,6 +175,7 @@ const Projects = () => {
                       
                    
                             <div className="col-4 column-pro">
+                            <h1>Project 4</h1>
                             <div className="pro-layer">
 <h1>{projectdata[3].proName}</h1>
 <div className="prolink">
@@ -207,6 +210,7 @@ const Projects = () => {
 
 
                             <div className="col-5 column-pro">
+                            <h1>Project 5</h1>
                             <div className="pro-layer">
 <h1>{projectdata[4].proName}</h1>
 <div className="prolink">
@@ -218,6 +222,7 @@ const Projects = () => {
 </div>
                             </div>
                             <div className="col-6 column-pro">
+                            <h1>Project 6</h1>
                             <div className="pro-layer">
 <h1>{projectdata[4].proName}</h1>
 <div className="prolink">
@@ -1583,7 +1588,13 @@ font-size:26vw !important;
   }
   
 }
-
+@media(width<=310px){
+.card-project{
+  display:grid;
+   grid-template-rows:repeat(6,1fr);
+   gap:580vw;
+  }
+}
 
 @media(width<=320px){
 

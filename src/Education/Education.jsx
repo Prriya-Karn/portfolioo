@@ -17,7 +17,7 @@ const Education=()=>{
         <h1 className="edu-year">2019-2022</h1>
         <h1>Diploma In Information Technology</h1>
         <p className="edu-name">Ambedkar Institute Of Technology</p>
-        <p className="cg">CGPA: 8</p>
+        <p className="cg">CGPA: 7.7</p>
         </div>
         </div>
 
@@ -27,7 +27,7 @@ const Education=()=>{
         <h1 className="edu-year">2022-2025</h1>
         <h1>Bachelor Of Technology</h1>
         <p className="edu-name">Guru Tegh Bahadur Institute Of Technology</p>
-        <p className="cg">CGPA: 8</p>
+        <p className="cg">CGPA: 7.8</p>
         </div>
         </div>
         <div className="blob-edu">

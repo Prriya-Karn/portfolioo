@@ -179,13 +179,14 @@ flex-direction:columns;
     width:100%;
     grid-template-rows:repeat(2,1fr);
         grid-template-columns:1fr;
+        margin-top:-40vw;
     }
     
     
     .hero-data{
 
     order:2;
-    padding-top:15vw;
+  margin-top:30vw;
     margin-left:10vw;
     max-width:100vw !important;
     min-height:70vh;
@@ -193,19 +194,17 @@ flex-direction:columns;
     }
     
     .hero-image{
-   
-    max-width:900vw !important;
-    margin-left:80vw;
+    margin-left:50vw !important;
     order:1;
-   height:90vh;
-    position:relative;
+   height:100vh;
+    width:90vw;
     }
     
     .hero-image img{
-       position: absolute;
-      width: 500vw !important;
-      height: 100vh;
+      max-width: 900% !important;
+      height: 150vh;
         }
+
     .hero-data h5{
     color:${({ theme }) => theme.colors.grey};
     font-size:15vw;
@@ -231,7 +230,7 @@ flex-direction:columns;
     .hero-data{
     padding-top:15vw;
     margin-left:10vw;
-    max-width:1000vw !important;
+    width:300vw !important;
     min-height:70vh;
     }
     
@@ -239,6 +238,7 @@ flex-direction:columns;
     min-height:30vh;
     width:300vw !important;
     position:relative;
+    margin-left:-80vw;
     }
     
     .hero-image img{
@@ -248,14 +248,13 @@ flex-direction:columns;
     
     .hero-data h5{
         color:${({ theme }) => theme.colors.grey};
-        font-size:18vw;
+        font-size:14vw !important;
         }
         
         
         .hero-data h1{
         font-size:25vw;
         }
-      
 
 }
 
@@ -272,7 +271,7 @@ flex-direction:columns;
     .hero-data{
     padding-top:15vw;
     margin-left:10vw;
-    max-width:1000vw !important;
+    width:300vw !important;
     min-height:70vh;
     }
     
@@ -280,6 +279,7 @@ flex-direction:columns;
     min-height:30vh;
     width:300vw !important;
     position:relative;
+    margin-left:-80vw;
     }
     
     .hero-image img{
@@ -289,15 +289,13 @@ flex-direction:columns;
     
     .hero-data h5{
         color:${({ theme }) => theme.colors.grey};
-        font-size:18vw;
+        font-size:14vw !important;
         }
         
         
         .hero-data h1{
         font-size:25vw;
         }
-      
-  
     
     
 
@@ -315,7 +313,7 @@ flex-direction:columns;
     .hero-data{
     padding-top:15vw;
     margin-left:10vw;
-    max-width:1000vw !important;
+    width:300vw !important;
     min-height:70vh;
     }
     
@@ -323,6 +321,7 @@ flex-direction:columns;
     min-height:30vh;
     width:300vw !important;
     position:relative;
+    margin-left:-80vw;
     }
     
     .hero-image img{
@@ -332,14 +331,13 @@ flex-direction:columns;
     
     .hero-data h5{
         color:${({ theme }) => theme.colors.grey};
-        font-size:18vw;
+        font-size:14vw !important;
         }
         
         
         .hero-data h1{
         font-size:25vw;
         }
-      
 }
 
 @media(width<=768px){
@@ -356,7 +354,7 @@ flex-direction:columns;
     .hero-data{
     padding-top:15vw;
     margin-left:10vw;
-    max-width:1000vw !important;
+    width:300vw !important;
     min-height:70vh;
     }
     
@@ -364,6 +362,7 @@ flex-direction:columns;
     min-height:30vh;
     width:300vw !important;
     position:relative;
+    margin-left:-80vw;
     }
     
     .hero-image img{
@@ -373,15 +372,13 @@ flex-direction:columns;
     
     .hero-data h5{
         color:${({ theme }) => theme.colors.grey};
-        font-size:18vw;
+        font-size:14vw !important;
         }
         
         
         .hero-data h1{
         font-size:25vw;
         }
-      
-
 }
 
 @media(width<=998px){
@@ -397,7 +394,7 @@ flex-direction:columns;
     .hero-data{
     padding-top:15vw;
     margin-left:10vw;
-    max-width:1000vw !important;
+    width:300vw !important;
     min-height:70vh;
     }
     
@@ -405,6 +402,7 @@ flex-direction:columns;
     min-height:30vh;
     width:300vw !important;
     position:relative;
+    margin-left:-80vw;
     }
     
     .hero-image img{
@@ -414,13 +412,14 @@ flex-direction:columns;
     
     .hero-data h5{
         color:${({ theme }) => theme.colors.grey};
-        font-size:18vw;
+        font-size:14vw !important;
         }
         
         
         .hero-data h1{
         font-size:25vw;
         }
+     
       
         }
 
@@ -449,7 +448,7 @@ position:relative;
 
 .hero-image img{
 postition:absolute;
-    width:150vw !important;
+    width:200vw !important;
     }
 
 .hero-data h5{

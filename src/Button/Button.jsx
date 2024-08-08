@@ -14,7 +14,14 @@ const Button = ({name,click})=>{
             {name}
             </button>
             </NavLink>:
-          
+            name === "Download CV"?
+            <a href="https://drive.google.com/file/d/1ZXvpuMg7IEV8e6RZPW67myLO1EYOWw4Z/view?usp=drive_link"
+             target="_blank">
+            <button className="heroButton">
+            {name}
+            </button>
+            </a>
+            :
             <button className="heroButton" onClick={click}>{name}</button>
         }
         

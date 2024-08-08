@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <Fragment>
       <ContactWrapper>
-        <div className="contact-container">
+        <div className="contact-container" id="contact">
         
           <Heading headName="Contact Me" className="edu-border" />
           <div className="blob-con-1">
