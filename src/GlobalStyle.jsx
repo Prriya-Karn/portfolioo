@@ -10,6 +10,8 @@ export const GlobalStyle = createGlobalStyle`
 
   html {
     font-size: 62.5%;
+     zoom: 100%;
+    transform: scale(1);
   }
 
   .header{
