@@ -76,7 +76,9 @@ const Projects = () => {
                     </div>
                     
                             <div className="col-1 column-pro">
-                            <h1>Project 1</h1>
+                            <img style={{objectFit:"cover",height:"100%",width:"100%"}} 
+                            src="Images/connect.jpg" alt=""/>
+                          
                         
                             
 
@@ -114,7 +116,9 @@ const Projects = () => {
                       
                       
                             <div className="col-2 column-pro">
-                            <h1>Project 2</h1>
+                            <img style={{objectFit:"cover",height:"100%"}} 
+                            src="Images/youtube.jpg" alt=""/>
+                          
                             <div className="pro-layer">
 <h1>{projectdata[1].proName}</h1>
 <div className="prolink">
@@ -145,7 +149,9 @@ const Projects = () => {
                   
                             <div className="col-3 column-pro">
                            
-                            <h1>Project 3</h1>
+                            <img style={{objectFit:"cover",height:"100%"}} 
+                            src="Images/cloud.jpg" alt=""/>
+                          
                             <div className="pro-layer">
 <h1>{projectdata[2].proName}</h1>
 <div className="prolink">
@@ -179,7 +185,9 @@ const Projects = () => {
                       
                    
                             <div className="col-4 column-pro">
-                            <h1>Project 4</h1>
+                            <img style={{objectFit:"cover",height:"100%"}} 
+                            src="Images/food.avif" alt=""/>
+                          
                             <div className="pro-layer">
 <h1>{projectdata[3].proName}</h1>
 <div className="prolink">
@@ -214,7 +222,9 @@ const Projects = () => {
 
 
                             <div className="col-5 column-pro">
-                            <h1>Project 5</h1>
+                            <img style={{objectFit:"cover",height:"100%"}} 
+                            src="Images/coro.jpg" alt=""/>
+                          
                             <div className="pro-layer">
 <h1>{projectdata[4].proName}</h1>
 <div className="prolink">
@@ -226,7 +236,10 @@ const Projects = () => {
 </div>
                             </div>
                             <div className="col-6 column-pro">
-                            <h1>Project 6</h1>
+                            <img style={{objectFit:"cover",height:"100%"}} 
+                            src="Images/music.jpg" alt=""/>
+                          
+                           
                             <div className="pro-layer">
 <h1>{projectdata[5].proName}</h1>
 <div className="prolink">
