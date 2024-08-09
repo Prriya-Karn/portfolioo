@@ -21,7 +21,7 @@ const About = () => {
                 <p><span>Name:</span> Priya Karn</p>
                 <p className="role"><span>Job Role:</span> Frontend Development</p>
                  
-                <p><span>Experience:</span> 3 Months Internship at ConnectOp</p>
+                
                 <p><span>Address:</span> Delhi,India</p>
                 
                 </div>

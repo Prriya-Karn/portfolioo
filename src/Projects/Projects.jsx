@@ -5,6 +5,10 @@ import Heading from "../Heading/Heading";
 const Projects = () => {
   const projectdata = [
     {
+      proName : "ConnectOp",
+      link : "https://con-top-k5pg-2mzrjghgq-priya-s-projects-23467243.vercel.app/"
+    },
+    {
       proName : "Youtube Clone",
       link : "https://youtubeclone-k9k3xkj80-priya-s-projects-23467243.vercel.app/"
     },
@@ -17,15 +21,11 @@ const Projects = () => {
       link : "https://searchfilterwebsite.vercel.app/"
     },
     {
+      proName : "Covid API",
+      link : "https://livecovid.vercel.app/"
+    },
+    {
       proName : "Quiz App",
-      link : "https://quizapp-omega-dun.vercel.app/"
-    },
-    {
-      proName : "GithubProfile Web",
-      link : "https://quizapp-omega-dun.vercel.app/"
-    },
-    {
-      proName : "GithubProfile Web",
       link : "https://quizapp-omega-dun.vercel.app/"
     },
   ]
@@ -86,7 +86,8 @@ const Projects = () => {
 <div className="pro-layer">
 <h1>{projectdata[0].proName}</h1>
 <div className="prolink">
-<NavLink exact to={projectdata[0].link} target="_blank"><img src="/Images/link.png"/>
+<NavLink exact to={projectdata[0].link} target="_blank">
+<img src="/Images/link.png"/>
 </NavLink>
 </div>
 
@@ -227,13 +228,12 @@ const Projects = () => {
                             <div className="col-6 column-pro">
                             <h1>Project 6</h1>
                             <div className="pro-layer">
-<h1>{projectdata[4].proName}</h1>
+<h1>{projectdata[5].proName}</h1>
 <div className="prolink">
-<NavLink exact to={projectdata[4].link}  target="_blank">
+<NavLink exact to={projectdata[5].link}  target="_blank">
 <img src="/Images/link.png"/>
 </NavLink>
 </div>
-
 </div>
                             </div>
                         </div>
