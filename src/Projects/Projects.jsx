@@ -1095,7 +1095,7 @@ font-size:10vw !important;
 
 
        .column-pro{
-       background-color:#CCD5DF;
+    
       width:300vw;
     height:120vh;
      position: relative;
