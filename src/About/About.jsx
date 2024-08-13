@@ -19,9 +19,10 @@ const About = () => {
                 </div>
                 <div className="about-image-right">
                 <p><span>Name:</span> Priya Karn</p>
-                <p className="role"><span>Job Role:</span> Frontend Development</p>
+                <p className="role"><span>Job Role:</span>Frontend Development</p>
                  
-                
+                <p className="role"><span>Internship:</span>@ ConnectOP</p>
+                 
                 <p><span>Address:</span> Delhi,India</p>
                 
                 </div>
